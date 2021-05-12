@@ -1,59 +1,79 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+1.	Site owners and users
+The product (Embrace Support Group website) is for a support group where end users are parents with problem teenage children or parents with simply teenage children. The owners are the organizers who run the meetings. 
+The site owners would like users to view the site so that users attend the support group meetings.
+The users are looking for information on a support group website, looking for a platform where they can talk over their problems they are having with their children and look for advice by looking at what paths other parents took to overcome certain situations and problems. 
+Parents’ (users’) need to get help in challenging situations will be realized. The product provides visibility for an activity/group that addresses real-life issues and can make life easier for the user.
+Value for products: As the features will be determined by the end-user’s needs, product will be user-friendly, easy-to-navigate, concise, efficient. This way, the product will be reusable/recyclable for similar projects. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+2.	User stories
+Users would like to carry out the following activities:
+-	Users would like to land on a page that provides the information they are looking for. 
+-	Users would like to see if it’s worth staying on the site.
+-	User would like to see more detailed information on the support group.
+-	Users would like to see view all available pages in one glance.
+-	Users would like to navigate between pages.
+-	Users would like to scroll down on pages.
+-	Users would like to see images of the support group’s activity.
+-	Users would like to get in contact with the group. 
+-	Users would like to follow the group via social media. 
+-	Users may want a shortcut to a useful feature.
+-	Users want to view the site on mobile or tablet devices.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+3.	Features
 
-`python3 -m http.server`
+-	Nav bar
 
-A blue button should appear to click: _Make Public_,
+The nav contains a logo of the Support group, links to the Home, About, Sessions, Gallery and Contact pages. 
 
-Another blue button should appear to click: _Open Browser_.
+The nav bar feature will allow the user to see all available pages at a glance and navigate between pages without having to go back to the previous pages. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+-	The landing page image
 
-Another blue button should appear to click: _Open Browser_.
+The landing page includes the photograph of a support group with a text overlay that allows the user to see the support groups motto.  
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+This is the introduction to the Embrace Support Group with an eye-catching image to awake the user’s interest. 
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+-	The landing page information section
+The landing page information section consists of Intro, Our Vision and Testimonials sections. User will see the value in staying on the page as these sections provide enough information to confirm for user that the help/support they are looking for is available on the site.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+-	The About page
+The About page provides additional information on the support group in three sections, namely History, Activity and Meetups. 
+User will find value in this as this page will provide more in-depth and practical information about the group’s activity in general.
 
-## Updates Since The Instructional Video
+-	The Sessions page
+The Sessions page provides additional information on support group in three sections, namely How It Happens,  Frequently Discussed and Other Activities. 
+User will find value in this as this page will provide more in-depth and practical information about the actual meetings.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-	The Gallery page
+The gallery page will provide images of the meetups. 
+The user will find value in this as it shows the different activities and scenarios that take place in the meetups. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+-	The Contact page
+The contact page allows the user to sign up with their first name, last name and email address.  User can select a preferred day for the session. The street map shows the location.
+This way the user can contact the group.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+-	Footer 
+The footer contains links to social media websites.
+The user finds value in being able to follow the group on social media platforms.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-	Contact a child psychologist icon
+This icon provides a shortcut the contact details of a behavioural psychologist.
+User can find value in this as they do not have to look for this feature by going through all 5 pages of the website.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+-	Scroll bar
+The scroll bar will enable the user to scroll down on pages where page information overflows.
+The user will see the value in this as all information on the page is accessible and the visual and information flow is continuous. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-	Responsive design
+Responsive design allows the user want to view the page on different devices, desktop, laptop, tablet and mobile phone. 
+The user can find value in this as all platforms will provide the same quality visual experience. 
 
----
 
-Happy coding!
