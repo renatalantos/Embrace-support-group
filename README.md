@@ -24,6 +24,8 @@ The site owner's goal of this website is
 
 
 2.	User stories
+
+
 Users would like to carry out the following activities:
 -	Users would like to land on a page that provides the information they are looking for. 
 -	Users would like to see if it’s worth staying on the site.
