@@ -76,4 +76,7 @@ The user will see the value in this as all information on the page is accessible
 Responsive design allows the user want to view the page on different devices, desktop, laptop, tablet and mobile phone. 
 The user can find value in this as all platforms will provide the same quality visual experience. 
 
+Link to wireframes: https://github.com/renatalantos/Embrace-support-group/blob/master/Milestone_Project_1_A4.pdf
+
+
 
