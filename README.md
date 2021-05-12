@@ -1,10 +1,26 @@
+Milestone Project 1 - Embrace Support Group
 
-1.	Site owners and users
-The product (Embrace Support Group website) is for a support group where end users are parents with problem teenage children or parents with simply teenage children. The owners are the organizers who run the meetings. 
+UX
+
+The product (Embrace Support Group website) is for a fictional support group where end users are parents with problem teenage children or parents with simply teenage children. 
+The owners of the product are the organizers who run the meetings. 
+
+The goal of the website for users and potentional users is to provides visibility for an activity/group that addresses real-life issues and can make life easier for the user.
+
 The site owners would like users to view the site so that users attend the support group meetings.
-The users are looking for information on a support group website, looking for a platform where they can talk over their problems they are having with their children and look for advice by looking at what paths other parents took to overcome certain situations and problems. 
-Parents’ (users’) need to get help in challenging situations will be realized. The product provides visibility for an activity/group that addresses real-life issues and can make life easier for the user.
-Value for products: As the features will be determined by the end-user’s needs, product will be user-friendly, easy-to-navigate, concise, efficient. This way, the product will be reusable/recyclable for similar projects. 
+
+The goal of this website for users and potential users is to:
+
+- provide information on support sessions
+- provide information on people running the sessions
+- provide contact details for support group
+- provide location for support group
+
+The site owner's goal of this website is 
+- to attract more people for their support group
+- to create an online presence and brand awareness
+
+
 
 
 2.	User stories
