@@ -19,7 +19,7 @@ Users would like to carry out the following activities:
 -	Users would like to get in contact with the group. 
 -	Users would like to follow the group via social media. 
 -	Users may want a shortcut to a useful feature.
--	Users want to view the site on mobile or tablet devices.
+-	Users want to view the site pages on mobile or tablet devices.
 
 3.	Features
 
@@ -75,5 +75,7 @@ The user will see the value in this as all information on the page is accessible
 -	Responsive design
 Responsive design allows the user want to view the page on different devices, desktop, laptop, tablet and mobile phone. 
 The user can find value in this as all platforms will provide the same quality visual experience. 
+
+Link to wireframes: https://github.com/renatalantos/Embrace-support-group/blob/master/Milestone_Project_1_A4.pdf
 
 
