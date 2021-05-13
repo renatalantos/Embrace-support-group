@@ -1,0 +1,24 @@
+/* import google fonts*/
+
+header {
+    width: 100%;
+    height: 140px;
+    background-color: #2F4858;
+    position: absolute;
+   
+}
+
+#logo {
+    background-image:url('../images/embrace_logo.png');
+    background-repeat: no-repeat;
+    height: 100px;
+    width:100px;
+    float: left;
+    margin-left: 30px;
+    margin-top:20px;
+    border-radius: 20px;
+    position:relative;
+   
+ 
+    
+}

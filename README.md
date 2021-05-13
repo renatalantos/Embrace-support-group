@@ -1,4 +1,13 @@
+Milestone Project 1 - Embrace Support Group
 
+UX
+
+The product (Embrace Support Group website) is for a fictional support group where end users are parents with problem teenage children or parents with simply teenage children. 
+The owners of the product are the organizers who run the meetings. 
+
+The goal of the website for users and potentional users is to provides visibility for an activity/group that addresses real-life issues and can make life easier for the user.
+
+<<<<<<< HEAD
 Milestone Project 1 - Embrace Support Group
 
 UX
@@ -7,6 +16,8 @@ The product (Embrace Support Group website) is for a fictional support group whe
 
 The goal of the website for users and potentional users is to provides visibility for an activity/group that addresses real-life issues and can make life easier for the user.
 
+=======
+>>>>>>> 27a7af2fcdf66c65d336d3985683352e8375d082
 The site owners would like users to view the site so that users attend the support group meetings.
 
 The goal of this website for users and potential users is to:
@@ -16,13 +27,23 @@ The goal of this website for users and potential users is to:
 - provide contact details for support group
 - provide location for support group
 
+<<<<<<< HEAD
 The site owner's goal of this website is
 
 - to attract more people for their support group
 - to create an online presence and brand awareness
+=======
+The site owner's goal of this website is 
+- to attract more people for their support group
+- to create an online presence and brand awareness
+
+
+>>>>>>> 27a7af2fcdf66c65d336d3985683352e8375d082
 
 
 2.	User stories
+
+
 Users would like to carry out the following activities:
 -	Users would like to land on a page that provides the information they are looking for. 
 -	Users would like to see if it’s worth staying on the site.
@@ -93,4 +114,8 @@ The user can find value in this as all platforms will provide the same quality v
 
 Link to wireframes: https://github.com/renatalantos/Embrace-support-group/blob/master/Milestone_Project_1_A4.pdf
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 27a7af2fcdf66c65d336d3985683352e8375d082
 
