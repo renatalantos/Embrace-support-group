@@ -3,10 +3,28 @@
 /*font-family: 'Roboto Slab', serif;
 font-family: 'Rubik', sans-serif; */
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    background-color #D7C3CC;
+
+    color: #3a3a3a;
+}
+
 header {
     width: 100%;
     height: 140px;
     background-color: #2F4858;
+    
+    
 
 }
 
@@ -19,34 +37,68 @@ header {
     margin-left: 30px;
     margin-top: 20px;
     border-radius: 20px;
-    position: relative;
+    
 
 
 
 }
 
-#menu li {
+#menu {
     float: right;
-    padding: 50px 30px 50px 30px;
-    list-style: none;
-    display: inline;
-
-}
-
-li a {
-    text-decoration: none;
-    color: black;
+    font-size: 200%;
+    font-weight:500;
     font-family: Rubik, serif;
     font-weight: 500;
-    font-size: 32px;
+   
+   
+}
+
+/*.vertical-middle {vertical-align: middle;}*/
+
+#menu li {
+   float: left;
+ padding-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+     font-weight:500;
+/* margin-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    list-style-type: none;*/
+   display: inline-block;
+  
+    
+    /*padding values calculated on the basis 
+   that li items have an automatic top and bottom px value of 16 */
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+  /* font-family: Rubik, serif;
+    font-weight: 500;
+    font-size: 32px; */
+    
+}
+
+#menu a:hover {
+    color: #8D7257;
+
+}
+
+
+#menu a:active {
+    color: #8D7257;
+    text-decoration: underline;
+
 }
 
 #embrace-main-image {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
-
+    position: relative;
 
 }
 
@@ -55,7 +107,19 @@ li a {
     background: url('../images/Hands.jpg') no-repeat center center fixed;
     width: 100%;
     height: 600px;
+
+}
+
+
+#embrace-summary {
+    margin-left: 20px;
+    width: auto;
+    height: auto;
+    bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(210, 199, 230, .3);
     animation: fadeIn 20s;
+    position: absolute;
     -webkit-animation: fadeIn 20s;
     -moz-animation: fadeIn 20s;
     -o-animation: fadeIn 20s;
@@ -63,55 +127,93 @@ li a {
 
 }
 
+
 @keyframes fadeIn {
 
-    0% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 @-moz-keyframes fadeIn {
 
-    0% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 @-webkit-keyframes fadeIn {
 
-    0% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 @-o-keyframes fadeIn {
 
-    0% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 @-ms-keyframes fadeIn {
 
-    0% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 
-#embrace-summary h1{
+#embrace-summary h1 {
     font-size: 50px;
     font-family: Rubik, serif;
-
-    font-weight:900;
-
+    font-weight: 500;
     letter-spacing: 4px;
-    color: #D8F9DA;
-    padding-left: 50px;
     text-transform: uppercase;
-    float: left;
-    position: absolute;
-    margin-top: 100px;
+    color: #852727;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
     animation-name: expand;
     animation-duration: 20s;
 
@@ -121,78 +223,85 @@ li a {
 @keyframes expand {
     0% {
         font-size: 50px;
-        color: #D8F9DA;
+        color: #BCCBD6;
     }
 
     10% {
         font-size: 52px;
-        color: #A9D5C2;
+        color: #596770;
     }
 
     20% {
         font-size: 54px;
-        color: #81B1AB;
+        color: #748E9B;
     }
 
     30% {
         font-size: 56px;
-        color: #5F8D91;
+        color: #2D3A43;
     }
 
     40% {
         font-size: 58px;
-        color: #456A76;
+        color: #01121A;
     }
 
     50% {
         font-size: 60px;
-        color: #2F4858;
+        color: #01121A;
     }
 
     60% {
         font-size: 58px;
-        color: #456A76;
+        color: #01121A;
     }
 
     70% {
         font-size: 56px;
-        color:#5F8D91;
+        color: #2D3A43;
     }
 
     80% {
         font-size: 54px;
-        color: #81B1AB;
+        color: #596770;
     }
 
     90% {
         font-size: 52px;
-        color: #A9D5C2;
+        color: #8998A2;
     }
 
     100% {
-        font-size: 50px
-        color: #D8F9DA;
+        font-size: 50px color: #BCCBD6;
     }
 }
 
+
+
+
+
+
+
+
+
 #cover-text {
 
-    height: 200px;
-    width: 300px;
+    height: auto;
+    width: 250px;
     background-color: rgb(133, 39, 39, .5);
-    bottom: 30px;
-    right: 150px;
+    right: 100px;
+    top: 20px;
+    right: 20px;
     position: absolute;
     border-radius: 5%;
     font-family: Rubik, serif;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 500;
     letter-spacing: 2px;
     color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
+    padding-left: 10px;
 
-
+    padding-top: 10px;
 
 
 }
