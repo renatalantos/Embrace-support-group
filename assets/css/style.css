@@ -41,7 +41,7 @@ header {
     /margin-left: 30px;
     margin-top: 20px;
     margin-left: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
 
 
 }
@@ -334,25 +334,27 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
+  /*  background-color: red;*/
 
 
 
 }
 
+/* Try if code works without content-block*/
 
-.content-block {
-    height: 600px;
-    width: 100%;
-    /*margin: 0 auto;*/
-    /*to center div, not here*/
+/*.content-block {
+    height: auto;
+    width: 100%; */
+/*margin: 0 auto;*/
+/*to center div, not here*/
+
+/*}
+    background-color: red;*/
 
 
-    background-color: red;
 
-}
-
-
-.content-block h1 {
+/*find a way to style h1s elsewhere*/
+#embrace-main-text-area h1 {
 
     text-align: center;
     padding: 20px;
@@ -361,38 +363,81 @@ header {
 .to-right {
     float: right;
     width: 50%;
-    background-color: blue;
-    height: auto;
+    /* background-color: blue; */
+    height: 350px;
     /*might need to change this to a value*/
-   /* margin-right: 20px; */
+
+    text-align: justify;
+    /*use display: block; when resizing for media queries*/
+
 
 }
 
 .to-left {
-    float: left;
+    /*float: left;*/
     width: 50%;
-    background-color: green;
-    height: auto;
+    /* background-color: green; */
+    height: 350px;
     text-align: center;
     
-    /*might need to change this to a value*/
 
 
 
-    /*margin-left: 20px;*/
+
 
 }
 
 .to-left img {
     background repeat: no-repeat;
-    
-    height: 500px;
-    width: 500px;
-    
-    
-    
-} 
+    height: auto;
+    width: auto;
+    padding: 5px;
+
+}
 
 
 
-.to-right p {padding: 10px;}
+.to-right p {
+    padding: 50px;
+    page-break-inside: auto;
+    text-indent: 20px;
+}
+
+.testimonial li{
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+
+
+/* Clear floats after containers */
+.testimonial::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.testimonial img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+    .testimonial {
+      text-align: center;
+    }
+  
+    .testimonial img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+
+
+  }
