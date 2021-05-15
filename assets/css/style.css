@@ -118,6 +118,7 @@ header {
 /*title label */
 #embrace-summary {
     margin-left: 20px;
+    margin-right: 20px;
     width: auto;
     height: auto;
     bottom: 20px;
@@ -293,7 +294,7 @@ header {
 /*motto label*/
 
 
-#cover-text{
+#cover-text {
 
     height: auto;
     width: 200px;
@@ -324,7 +325,7 @@ header {
     font-weight: initial;
     font-family: Rubik, serif;
     font-size: 50px;
-    padding-right:20px;
+    padding-right: 20px;
 
 }
 
@@ -333,7 +334,7 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-   
+
 
 
 }
@@ -342,8 +343,9 @@ header {
 .content-block {
     height: 600px;
     width: 100%;
-    margin: 0 auto; /*to center div, not here*/
-  
+    /*margin: 0 auto;*/
+    /*to center div, not here*/
+
 
     background-color: red;
 
@@ -355,32 +357,42 @@ header {
     text-align: center;
     padding: 20px;
 }
+
 .to-right {
     float: right;
-    width:50%;
+    width: 50%;
     background-color: blue;
-    height: auto; /*might need to change this to a value*/
-    margin-right: 20px;
-    
+    height: auto;
+    /*might need to change this to a value*/
+   /* margin-right: 20px; */
+
 }
 
 .to-left {
     float: left;
-    width:50%;
+    width: 50%;
     background-color: green;
-    height: auto; 
+    height: auto;
+    text-align: center;
+    
     /*might need to change this to a value*/
-    
-    
-  
-   margin-left: 20px;
-     
+
+
+
+    /*margin-left: 20px;*/
+
 }
 
-.to-left img {background repeat: no-repeat;
-    background-position:left center;
+.to-left img {
+    background repeat: no-repeat;
+    
     height: 500px;
-    width: 500px;}
+    width: 500px;
+    
+    
+    
+} 
 
 
 
+.to-right p {padding: 10px;}
