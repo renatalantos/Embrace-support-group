@@ -334,6 +334,7 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
+  /*  padding: 0 10px 0 10px;*/
   /*  background-color: red;*/
 
 
@@ -404,14 +405,14 @@ header {
 }
 
 
-.testimonial li{
+#testimonial li{
     border: .5px solid #8B8588;
+    
     background-color: #F4F6F4;
     height: 150px;
     width: auto;
     border-radius: 5px;
-    padding: 16px;
-   margin: 16px 0;
+    margin: 16px 0;
     list-style-type: none;
     
 }
@@ -419,14 +420,14 @@ header {
 
 
 /* Clear floats after containers */
-.testimonial::after {
+#testimonial::after {
     content: "";
     clear: both;
     display: table;
   }
 
   /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-.testimonial img {
+#testimonial img {
     float: left;
     margin-right: 20px;
    height: 120px;
@@ -436,15 +437,22 @@ header {
 
   /* Add media queries for responsiveness. This will center both the text and the image inside the container */
 @media (max-width: 500px) {
-    .testimonial {
+    #testimonial {
       text-align: center;
     }
   
-    .testimonial img {
+    #testimonial img {
       margin: auto;
       float: none;
       display: block;
     }
 
 
+  }
+
+  footer {
+      background-color: #2F4858;
+      width: 100%;
+      height: auto;
+      padding: 0 10px 0 10px; 
   }
