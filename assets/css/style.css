@@ -71,7 +71,7 @@ header {
 
 
     /*padding values calculated on the basis 
-   that li items have an automatic top and bottom px value of 16 */
+   that li items have an automatic top and bottom px value of 16px */
 
 }
 
@@ -334,8 +334,8 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-  /*  padding: 0 10px 0 10px;*/
-  /*  background-color: red;*/
+
+    /*background-color: red;*/
 
 
 
@@ -364,7 +364,7 @@ header {
 .to-right {
     float: right;
     width: 50%;
-    /* background-color: blue; */
+   /* background-color: blue;*/
     height: 350px;
     /*might need to change this to a value*/
 
@@ -375,12 +375,12 @@ header {
 }
 
 .to-left {
-    /*float: left;*/
+    float: left;
     width: 50%;
-    /* background-color: green; */
+   ?* background-color: green;*/
     height: 350px;
     text-align: center;
-    
+
 
 
 
@@ -405,16 +405,18 @@ header {
 }
 
 
-#testimonial li{
+
+
+#testimonial li {
     border: .5px solid #8B8588;
-    
     background-color: #F4F6F4;
     height: 150px;
     width: auto;
     border-radius: 5px;
-    margin: 16px 0;
     list-style-type: none;
-    
+    padding: 16px;
+    margin: 16px 0;
+
 }
 
 
@@ -424,35 +426,115 @@ header {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-#testimonial img {
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+#testimonial li img {
     float: left;
     margin-right: 20px;
-   height: 120px;
-   width: 120px;
-   border-radius: 50%;
-  }
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
 
-  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+
+footer {
+    background-color: #2F4858;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    height: 140px;
+
+}
+
+footer a {
+
+    font-size: 32px;
+    font-weight: 500;
+    font-family: Rubik, serif;
+    font-weight: 500;
+    line-height: 32px;
+    text-decoration: none;
+   /* probably not needed padding-right: 30px;
+    padding-top: 50px;
+    margin-bottom: 50px;*/
+    color:white;
+    
+   
+    
+}
+
+#footer-item-left {
+
+    float: left;
+    text-align: center;
+    width: 33%;
+    margin-top: 54px;
+    
+}
+
+#footer-item-centre {
+
+    
+    text-align: center;
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+
+#footer-item-right {
+
+    float: right;
+    text-align: center;
+    width: 33%;
+    
+    
+
+}
+
+
+#footer-item-right li{
+    display:inline;
+    
+}
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
 @media (max-width: 500px) {
     #testimonial {
-      text-align: center;
+        text-align: center;
     }
-  
+
     #testimonial img {
-      margin: auto;
-      float: none;
-      display: block;
+        margin: auto;
+        float: none;
+        display: block;
     }
 
+    .to-left {
+        margin: auto;
+        float: none;
+        display: block;
+        width: auto;
+        height: auto;
+        
 
-  }
+    }
+    
+    .to-right {
+        margin: auto;
+        float: none;
+        display: block;
+        text-align:center;
+        width: auto;
+        height: auto;
+        
+    }
+    .to-left img {
+        margin: auto;
+        float: none;
+        display: block;
 
-  footer {
-      background-color: #2F4858;
-      width: 100%;
-      height: auto;
-      padding: 0 10px 0 10px; 
-  }
+    }
+    
+}
+
