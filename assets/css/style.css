@@ -17,57 +17,59 @@ body {
     background-color #D7C3CC;
     color: #1B1A1E;
     padding: 0;
-    margin:0;
+    margin: 0;
     background-color: #CFC4F41;
 }
 
+/*header and logo */
 header {
     width: 100%;
     min-height: 140px;
-    background-color: #2F4858;   
+    background-color: #2F4858;
     overflow: hidden;
 }
 
 
 
 
- #logo {
+#logo {
     background-image: url('../images/embrace_logo.png');
     background-repeat: no-repeat;
     height: 100px;
     width: 100px;
     float: left;
-   /margin-left: 30px;
+    /margin-left: 30px;
     margin-top: 20px;
-    margin-left:30px;
+    margin-left: 30px;
     border-radius: 20px;
 
 
 }
 
- #menu {
+/*navigation links*/
+#menu {
     float: right;
     font-size: 32px;
-    font-weight:500;
+    font-weight: 500;
     font-family: Rubik, serif;
-    font-weight: 500;  
+    font-weight: 500;
     line-height: 32px;
-    
-   
+
+
 }
 
 
 #menu li {
-   float: left;
- padding-right: 30px;
+    float: left;
+    padding-right: 30px;
     padding-top: 50px;
     margin-bottom: 50px;
-   
- 
+
+
     list-style-type: none;
-     display:inline;
-  
-    
+    display: inline;
+
+
     /*padding values calculated on the basis 
    that li items have an automatic top and bottom px value of 16 */
 
@@ -76,11 +78,11 @@ header {
 #menu a {
     text-decoration: none;
     color: white;
-  /* font-family: Rubik, serif;
+    /* font-family: Rubik, serif;
     font-weight: 500;
     font-size: 32px; */
-  
-    
+
+
 }
 
 #menu a:hover {
@@ -90,18 +92,18 @@ header {
 
 
 #menu a:active {
-    color:rgb(199, 99, 99) ;
+    color: rgb(199, 99, 99);
     text-decoration: underline;
 
 }
 
-
+/*main image area*/
 #embrace-main {
     height: 600px;
     width: 100%;
     overflow: hidden;
-  position: relative;
- 
+    position: relative;
+
 
 }
 
@@ -113,7 +115,7 @@ header {
 
 }
 
-
+/*title label */
 #embrace-summary {
     margin-left: 20px;
     width: auto;
@@ -122,7 +124,8 @@ header {
     border-radius: 10px;
     background-color: rgb(210, 199, 230, .3);
     animation: fadeIn 20s;
- position: absolute;
+    position: absolute;
+    /*animation to fade label in and out*/
     -webkit-animation: fadeIn 20s;
     -moz-animation: fadeIn 20s;
     -o-animation: fadeIn 20s;
@@ -206,6 +209,7 @@ header {
     }
 }
 
+/*title label text*/
 
 #embrace-summary h1 {
     font-size: 50px;
@@ -217,13 +221,15 @@ header {
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-    animation-name: expand;
-    animation-duration: 20s;
+
+    /*animation to increase text size and change text color*/
+    /*   animation-name: expand;
+    animation-duration: 20s;*/
 
 
 }
 
-@keyframes expand {
+/*@keyframes expand {
     0% {
         font-size: 50px;
         color: #BCCBD6;
@@ -280,45 +286,85 @@ header {
 }
 
 
+*/
 
 
 
+/*motto label*/
 
 
-
-
-#cover-text {
+#cover-text p {
 
     height: auto;
-    width: 250px;
+    width: 200px;
     background-color: rgb(133, 39, 39, .5);
     right: 100px;
     top: 20px;
     right: 20px;
+    padding: 10px;
     position: absolute;
+
     border-radius: 5%;
-    font-family: Rubik, serif;
-    font-size: 25px;
-    font-weight: 500;
+
     letter-spacing: 2px;
     color: white;
     padding-left: 10px;
     padding-top: 10px;
-    
-    
+
+
 
 
 }
 
-.container h1 { 
+/*motto text*/
+.cover-text h1 {
     text-align: center;
-    color:rgb(133, 39, 39, .5);
-    text-transform: uppercase;
-    font-weight:500;
+    color: rgb(133, 39, 39, .5);
+
+    font-weight: initial;
     font-family: Rubik, serif;
     font-size: 50px;
 
-    
+}
+
+#embrace-main-text-area {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+
 }
 
 
+.content-block {
+    height: 600px;
+    width: 100%;
+    margin: 0 auto; /*to center div, not here*/
+    padding: 20px;
+
+    background-color: red;
+
+}
+
+
+.content-block h1 {
+
+    text-align: center;
+    padding: 20px;
+}
+.to-right {
+    float: right;
+    width:50%;
+    background-color: blue;
+    height: auto; /*might need to change this to a value*/
+}
+
+.to-left {
+    float: left;
+    width:50%;
+    background-color: green;
+    height: auto; /*might need to change this to a value*/
+}
+
+}
