@@ -32,7 +32,6 @@ footer {
 
 
 
-
 #logo {
     background-image: url('../images/embrace_logo.png');
     background-repeat: no-repeat;
@@ -43,18 +42,13 @@ footer {
     margin-top: 20px;
     margin-left: 30px;
     border-radius: 5px;
-
-
 }
 
 /*header navigation links and footer links */
+
 #menu {
     float: right;
-    /*deleted font properties from here and added them to #menu a, footer a} */
-
-
 }
-
 
 #menu li {
     float: left;
@@ -63,11 +57,6 @@ footer {
     margin-bottom: 50px;
     list-style-type: none;
     display: inline;
-
-
-    /*padding values calculated on the basis 
-   that li items have an automatic top and bottom px value of 16px */
-
 }
 
 #menu a,
@@ -83,27 +72,22 @@ footer a {
 #menu a:hover,
 footer a:hover {
     color: #8D7257;
-
-
-
 }
 
 
 #menu a:active,
-footer a: active {
+footer a:active {
     color: rgb(199, 99, 99);
     text-decoration: underline;
-
 }
 
 /*main image area*/
+
 #hero-outer {
     height: 500px;
     width: 100%;
     overflow: hidden;
-    position: relative;
-
-
+    position:relative;
 }
 
 
@@ -111,27 +95,26 @@ footer a: active {
     background: url('../images/Hands_reaching_out.jpg') no-repeat center center fixed;
     width: 100%;
     height: 500px;
-
 }
 
 /*summary label */
+
 #hero-summary {
     margin-left: 20px;
     margin-right: 20px;
     width: auto;
     height: auto;
     bottom: 20px;
-    /*bottom to top ?*/
     border-radius: 5px;
     background-color: rgb(210, 199, 230, .3);
     animation: fadeIn 20s;
     position: absolute;
+
     /*animation to fade label in and out*/
     -webkit-animation: fadeIn 20s;
     -moz-animation: fadeIn 20s;
     -o-animation: fadeIn 20s;
     -ms-animation: fadeIn 20s;
-
 }
 
 
@@ -210,7 +193,7 @@ footer a: active {
     }
 }
 
-/*title label text*/
+/*summarylabel text*/
 
 #hero-summary h1 {
     font-size: 50px;
@@ -222,10 +205,6 @@ footer a: active {
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-
-    
-
-
 }
 
 
@@ -238,39 +217,26 @@ footer a: active {
 
 
 #cover-text {
-
-    height: auto;
-    width: 200px;
     background-color: rgb(133, 39, 39, .5);
-
-    top: 20px;
-    /*bottom to top?*/
-    right: 20px;
-    padding: 10px;
-    position: absolute;
-
-    border-radius: 5%;
-
     letter-spacing: 2px;
     color: white;
-    padding-left: 10px;
-    padding-top: 10px;
-
-
-
-
+    height: auto;
+    width: 200px;
+    top: 20px;
+    right: 20px;
+    padding: 10px 0 10px 0;
+    position: absolute;
+    border-radius: 5%;
 }
 
 /*motto text*/
 .cover-text p {
-    text-align: center;
     color: rgb(133, 39, 39, .5);
-
     font-weight: initial;
     font-family: Rubik, serif;
     font-size: 50px;
+    text-align: center;
     padding-right: 20px;
-
 }
 
 #hero-text-area {
@@ -281,31 +247,17 @@ footer a: active {
     text-align:center;
 
   /*  background-color: red; */
-
-
-
+  
+  background-color: red;
 }
-
-/* Try if code works without content-block*/
-
-/*.content-block {
-    height: auto;
-    width: 100%; */
-/*margin: 0 auto;*/
-/*to center div, not here*/
-
-}
-    background-color: red;
+    
 
 
 
 
 #hero-text-area h1 {
-
-    
-   padding-top: 30px;
+    padding-top: 30px;
     padding-bottom: 30px;
-
 }
 
 
@@ -316,13 +268,7 @@ footer a: active {
     width: 50%;
   /*  background-color: blue; */
     height: 350px;
-    /*might need to change this to a value*/
-
     text-align: justify;
-
-    /*use display: block; when resizing for media queries*/
-
-
 }
 
 .to-left {
@@ -331,27 +277,20 @@ footer a: active {
    /* background-color: green;*/
     height: 350px;
     text-align: center;
-
 }
 
 .to-left img {
-    background repeat: no-repeat;
+    background-repeat: no-repeat;
     height: auto;
     width: auto;
     padding: 5px;
-
 }
-
-
 
 .to-right p {
     padding: 50px;
     page-break-inside: auto;
     text-indent: 20px;
 }
-
-
-
 
 #testimonial li {
     border: .5px solid rgba(139, 133, 136, .2);
@@ -362,12 +301,10 @@ footer a: active {
     list-style-type: none;
     padding: 16px;
     margin: 16px 0;
-
 }
 
-
-
 /* Clear floats after containers */
+
 #testimonial::after {
     content: "";
     clear: both;
@@ -384,24 +321,14 @@ footer a: active {
     margin-top: 10px;
 }
 
-
-
-
 #footer-item-left {
-
     float: left;
     text-align: center;
     width: 33%;
     margin-top: 54px;
-
-
 }
 
-
-
 #footer-item-centre {
-
-
     text-align: center;
     width: 33%;
     margin: 0 auto;
@@ -409,20 +336,15 @@ footer a: active {
 }
 
 #footer-item-right {
-
     float: right;
     text-align: center;
     width: 33%;
     margin-top: -74px;
-
-
-
 }
 
 
 #footer-item-right li {
     display: inline;
-
 
 }
 
@@ -438,10 +360,6 @@ footer i {
 /* Add media queries for responsiveness. This will center both the text and the image inside the container */
 @media (max-width: 500px) {
 
-
-
-
-
     #cover-text {
         width: auto;
         margin-left: 20px;
@@ -452,8 +370,6 @@ footer i {
     .to-right {
         text-align: center;
     }
-
-
 
     #menu li,
     .to-left,
@@ -466,14 +382,10 @@ footer i {
         height: auto;
     }
 
-
-
-
     .to-left img {
         margin: auto;
         float: none;
         display: block;
-
     }
 
     #footer-item-left,
@@ -485,7 +397,6 @@ footer i {
         text-align: center;
         width: auto;
         height: auto;
-
     }
 
     #footer-item-left {
@@ -494,15 +405,10 @@ footer i {
 
     #menu li {
         margin-bottom: 10px;
-
     }
 
     #footer-item-right,
     #footer-item-centre {
-
         margin-bottom: 30px;
     }
-
-
-
 }
