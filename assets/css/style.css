@@ -9,8 +9,6 @@ font-family: 'Rubik', sans-serif; */
     border: none;
 }
 
-
-
 body {
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
@@ -30,15 +28,12 @@ footer {
     overflow: hidden;
 }
 
-
-
 #logo {
     background-image: url('../images/embrace_logo.png');
     background-repeat: no-repeat;
     height: 100px;
     width: 100px;
     float: left;
-    /margin-left: 30px;
     margin-top: 20px;
     margin-left: 30px;
     border-radius: 5px;
@@ -74,7 +69,6 @@ footer a:hover {
     color: #8D7257;
 }
 
-
 #menu a:active,
 footer a:active {
     color: rgb(199, 99, 99);
@@ -90,9 +84,10 @@ footer a:active {
     position:relative;
 }
 
+.hamburger-icon {visibility: hidden;} /*this is dodgy*/
 
 #hero-image {
-    background: url('../images/Hands_reaching_out.jpg') no-repeat center center fixed;
+    background: url('../images/hands_reaching_out.jpg') no-repeat center center fixed;
     width: 100%;
     height: 500px;
 }
@@ -106,7 +101,7 @@ footer a:active {
     height: auto;
     bottom: 20px;
     border-radius: 5px;
-    background-color: rgb(210, 199, 230, .3);
+    background-color: rgb(255, 255, 255, .7);
     animation: fadeIn 20s;
     position: absolute;
 
@@ -207,14 +202,7 @@ footer a:active {
     text-align: center;
 }
 
-
-
-
-
-
-
 /*motto label*/
-
 
 #cover-text {
     background-color: rgb(133, 39, 39, .5);
@@ -224,12 +212,13 @@ footer a:active {
     width: 200px;
     top: 20px;
     right: 20px;
-    padding: 10px 0 10px 0;
+    padding: 10px;
     position: absolute;
     border-radius: 5%;
 }
 
 /*motto text*/
+
 .cover-text p {
     color: rgb(133, 39, 39, .5);
     font-weight: initial;
@@ -245,23 +234,12 @@ footer a:active {
     overflow: hidden;
     position: relative;
     text-align:center;
-
-  /*  background-color: red; */
-  
-  background-color: red;
+    background-color: #DFEDF4;
 }
     
-
-
-
-
 #hero-text-area h1 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 0 30px 0;
 }
-
-
-
 
 .to-right {
     float: right;
@@ -269,6 +247,12 @@ footer a:active {
   /*  background-color: blue; */
     height: 350px;
     text-align: justify;
+}
+
+.to-right p {
+    padding: 50px;
+    page-break-inside: auto;
+    text-indent: 20px;
 }
 
 .to-left {
@@ -281,26 +265,22 @@ footer a:active {
 
 .to-left img {
     background-repeat: no-repeat;
-    height: auto;
+    height: auto; /*change to fixed value?*/
     width: auto;
     padding: 5px;
 }
 
-.to-right p {
-    padding: 50px;
-    page-break-inside: auto;
-    text-indent: 20px;
-}
 
 #testimonial li {
     border: .5px solid rgba(139, 133, 136, .2);
     background-color: #F4F6F4;
-    height: 150px;
+    height: 130px;
     width: auto;
     border-radius: 5px;
     list-style-type: none;
-    padding: 16px;
-    margin: 16px 0;
+    padding: 16px 0 8px 16px;
+    margin: 16px 0; 
+    text-align: justify;
 }
 
 /* Clear floats after containers */
@@ -314,11 +294,10 @@ footer a:active {
 /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
 #testimonial li img {
     float: left;
-    margin-right: 20px;
+    margin-right: 16px;
     height: 120px;
     width: 120px;
-    border-radius: 50%;
-    margin-top: 10px;
+    border-radius: 50%; 
 }
 
 #footer-item-left {
@@ -339,17 +318,26 @@ footer a:active {
     float: right;
     text-align: center;
     width: 33%;
-    margin-top: -74px;
+    margin-top: -130px;
 }
-
 
 #footer-item-right li {
     display: inline;
 
 }
 
+footer h6 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
 footer i {
-    text-align: center;
     color: white;
     font-size: 32px;
     line-height: 32px;
@@ -412,3 +400,7 @@ footer i {
         margin-bottom: 30px;
     }
 }
+  
+ 
+ 
+  
