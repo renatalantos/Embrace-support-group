@@ -81,16 +81,28 @@ footer a:active {
     height: 500px;
     width: 100%;
     overflow: hidden;
-    position:relative;
+    position: relative;
 }
 
-.hamburger-icon {visibility: hidden;} /*this is dodgy*/
 
-#hero-image {
-    background: url('../images/hands_reaching_out.jpg') no-repeat center center fixed;
+#hero-image-home,
+#hero-image-about {
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     width: 100%;
     height: 500px;
 }
+
+#hero-image-home {
+    background-image: url('../images/reach_out.jpg');
+}
+
+#hero-image-about {
+    background-image: url('../images/session_in_place.jpg');
+}
+
 
 /*summary label */
 
@@ -233,10 +245,10 @@ footer a:active {
     width: 100%;
     overflow: hidden;
     position: relative;
-    text-align:center;
+    text-align: center;
     background-color: #DFEDF4;
 }
-    
+
 #hero-text-area h1 {
     padding: 30px 0 30px 0;
 }
@@ -244,7 +256,7 @@ footer a:active {
 .to-right {
     float: right;
     width: 50%;
-  /*  background-color: blue; */
+    /*  background-color: blue; */
     height: 350px;
     text-align: justify;
 }
@@ -258,14 +270,15 @@ footer a:active {
 .to-left {
     float: left;
     width: 50%;
-   /* background-color: green;*/
+    /* background-color: green;*/
     height: 350px;
     text-align: center;
 }
 
 .to-left img {
     background-repeat: no-repeat;
-    height: auto; /*change to fixed value?*/
+    height: auto;
+    /*change to fixed value?*/
     width: auto;
     padding: 5px;
 }
@@ -279,7 +292,7 @@ footer a:active {
     border-radius: 5px;
     list-style-type: none;
     padding: 16px 0 8px 16px;
-    margin: 16px 0; 
+    margin: 16px 0;
     text-align: justify;
 }
 
@@ -297,7 +310,7 @@ footer a:active {
     margin-right: 16px;
     height: 120px;
     width: 120px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 #footer-item-left {
@@ -400,7 +413,3 @@ footer i {
         margin-bottom: 30px;
     }
 }
-  
- 
- 
-  
