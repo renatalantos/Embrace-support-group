@@ -258,7 +258,7 @@ footer a:active {
     float: right;
     width: 50%;
     /*  background-color: blue; */
-    height: 350px;
+    height: 450px;
     
 }
 
@@ -273,18 +273,25 @@ footer a:active {
     float: left;
     width: 50%;
     /* background-color: green;*/
-    height: 350px;
+    height: 450px;
     text-align: center;
 }
+
+
+.to-left, .to-right {
+    border: .5px solid rgba(139, 133, 136, .2);
+    background-color: #F4F6F4;
+    box-sizing: border-box;}
 
 .to-left img {
     background-repeat: no-repeat;
     height: 400;
     /*change to fixed value?*/
     width: 500px;
-    padding: 5px;
+    padding-top: 50px;
 
 }
+
 
 
 #testimonial li {
