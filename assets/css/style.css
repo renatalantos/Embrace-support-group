@@ -87,7 +87,8 @@ footer a:active {
 
 
 #hero-image-home,
-#hero-image-about {
+#hero-image-about,
+#hero-image-sessions {
 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -97,11 +98,15 @@ footer a:active {
 }
 
 #hero-image-home {
-    background-image: url('../images/reach_out.jpg');
+    background-image: url('../images/parents_support_group.jpg');
 }
 
 #hero-image-about {
     background-image: url('../images/session_in_place.jpg');
+}
+
+#hero-image-sessions {
+    background-image: url('../images/group_from_a_distance.jpg');
 }
 
 
@@ -112,7 +117,7 @@ footer a:active {
     margin-right: 20px;
     width: auto;
     height: auto;
-    bottom: 20px;
+    top: 20px;
     border-radius: 5px;
     background-color: rgb(255, 255, 255, .7);
     animation: fadeIn 20s;
@@ -223,7 +228,7 @@ footer a:active {
     color: white;
     height: auto;
     width: 200px;
-    top: 20px;
+    bottom: 20px;
     right: 20px;
     padding: 10px;
     position: absolute;
@@ -296,7 +301,7 @@ footer a:active {
 
 .to-left img {
     background-repeat: no-repeat;
-    height: 400 px;
+    height: 350px;
     /*change to fixed value?*/
     width: 500px;
     padding-top: 50px;
@@ -412,22 +417,20 @@ footer i {
 }
 
 #concerns li {
-    list-style-type: none;
+   
    
     font-size: 20px;
     text-align: justify;
-    margin: 8px 0 0 30px;
+    margin: 8px 0 0 40px;
     
     }
-
-
 
 
 
 /*team-members ul list and items deletd*/
 
 
-/* Add media queries for responsiveness. This will center both the text and the image inside the #concerns#tainer */
+/* Add media queries for responsiveness. This will center both the text and the image inside the #container */
 @media screen and (max-width: 500px)  {
 
     #cover-text {
