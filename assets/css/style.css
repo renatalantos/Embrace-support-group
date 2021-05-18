@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik:wght@300&display=swap');
 
+
 /*font-family: 'Roboto Slab', serif;
 font-family: 'Rubik', sans-serif; */
 
@@ -249,7 +250,7 @@ footer a:active {
     background-color: #DFEDF4;
 }
 
-#hero-text-area h1 {
+#hero-text-area h1, h3 {
     padding: 30px 0 30px 0;
 
 }
@@ -262,7 +263,11 @@ footer a:active {
 
 }
 
-.to-right p {
+.to-right p,
+
+
+
+    {
 
     page-break-inside: auto;
     text-indent: 20px;
@@ -270,6 +275,10 @@ footer a:active {
     margin: 100px;
 
 }
+
+
+
+
 
 .to-left {
     float: left;
@@ -285,7 +294,7 @@ footer a:active {
     border: .5px solid rgba(139, 133, 136, .2);
     background-color: #F4F6F4;
     box-sizing: border-box;
-    
+
 
 }
 
@@ -311,15 +320,12 @@ footer a:active {
     box-sizing: border-box;
     display: inline;
     float: left;
-    
+
 }
 
 #testimonial li p,
-#team-founders p, 
-
+#team-founders p 
 {
-
-    
     page-break-inside: auto;
     text-indent: 20px;
     padding: 20px;
@@ -410,15 +416,22 @@ footer i {
 }
 
 #concerns li {
-    display:inline-block;
+    list-style-type: none;
    
+    font-size: 20px;
+    text-align: justify;
+    margin: 8px 0 0 30px;
+    
+    }
+
 
 }
+
 
 /*team-members ul list and items deletd*/
 
 
-/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+/* Add media queries for responsiveness. This will center both the text and the image inside the #concerns#tainer */
 @media (max-width: 500px) {
 
     #cover-text {
