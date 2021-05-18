@@ -315,7 +315,9 @@ footer a:active {
 }
 
 #testimonial li p,
-#team-founders p {
+#team-founders p, 
+
+{
 
     
     page-break-inside: auto;
@@ -405,6 +407,12 @@ footer i {
     height: 200px;
     width: 200px;
     padding-top: 20px;
+}
+
+#concerns li {
+    display:inline-block;
+   
+
 }
 
 /*team-members ul list and items deletd*/
