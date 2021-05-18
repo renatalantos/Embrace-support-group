@@ -106,7 +106,7 @@ footer a:active {
 }
 
 #hero-image-sessions {
-    background-image: url('../images/group_from_a_distance.jpg');
+    background-image: url('../images/group_from_distance.jpg');
 }
 
 
@@ -264,7 +264,7 @@ footer a:active {
     float: right;
     width: 50%;
     /*  background-color: blue; */
-    height: 450px;
+    height: 500px;
 
 }
 
@@ -273,7 +273,7 @@ footer a:active {
     page-break-inside: auto;
     text-indent: 20px;
     text-align: justify;
-    margin: 100px;
+    margin: 50px;
 
 }
 
@@ -285,7 +285,7 @@ footer a:active {
     float: left;
     width: 50%;
     /* background-color: green;*/
-    height: 450px;
+    height: 500px;
     text-align: center;
 }
 
