@@ -263,11 +263,7 @@ footer a:active {
 
 }
 
-.to-right p,
-
-
-
-    {
+.to-right p{
 
     page-break-inside: auto;
     text-indent: 20px;
@@ -300,7 +296,7 @@ footer a:active {
 
 .to-left img {
     background-repeat: no-repeat;
-    height: 400;
+    height: 400 px;
     /*change to fixed value?*/
     width: 500px;
     padding-top: 50px;
@@ -310,7 +306,7 @@ footer a:active {
 
 
 #testimonial li {
-    width: 100;
+    width: 100%;
     border: .5px solid rgba(139, 133, 136, .2);
     background-color: #F4F6F4;
     height: 150px;
@@ -425,14 +421,14 @@ footer i {
     }
 
 
-}
+
 
 
 /*team-members ul list and items deletd*/
 
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the #concerns#tainer */
-@media (max-width: 500px) {
+@media screen and (max-width: 500px)  {
 
     #cover-text {
         width: auto;
@@ -454,6 +450,7 @@ footer i {
         display: block;
         width: auto;
         height: auto;
+        
     }
 
     .to-left img {
