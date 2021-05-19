@@ -255,7 +255,7 @@ footer a:active {
     background-color: #DFEDF4;
 }
 
-#hero-text-area h1, h3 {
+#hero-text-area h1, h3{
     padding: 30px 0 30px 0;
 
 }
@@ -266,7 +266,27 @@ footer a:active {
     /*  background-color: blue; */
     height: 500px;
 
+    position: relative;
+  
+    animation-name: pushLeft;
+    animation-duration: 20s;
+    
+
 }
+
+
+
+
+
+/*css tansitions*/
+@keyframes pushLeft {
+    0%   { left:0px; top:0px;}
+    25%  {left: 10px; top: 0px;}
+    50%  { left:20px; top:0px;}
+    75% { left: 10px; top: 0px;}
+    100% {left:0px; top:0px;}
+  }
+  
 
 .to-right p{
 
@@ -274,6 +294,10 @@ footer a:active {
     text-indent: 20px;
     text-align: justify;
     margin: 50px;
+    
+
+    
+    
 
 }
 
@@ -287,7 +311,21 @@ footer a:active {
     /* background-color: green;*/
     height: 500px;
     text-align: center;
+    /*css tansitions*/
+    position: relative;
+  
+    animation-name: pushRight;
+    animation-duration: 20s;
 }
+
+@keyframes pushRight {
+    0%   { right:0px; top:0px;}
+    25% { right: 10px; top: 0px;}
+    50%  { right:20px; top:0px;}
+    75 % {right: 10px; top: 0px:}
+    
+    100% {right:0px; top:0px;}
+  }
 
 
 .to-left,
@@ -355,21 +393,24 @@ footer a:active {
     float: left;
     text-align: center;
     width: 33%;
-    margin-top: 54px;
+    margin: 0 auto;
+    padding-top: 54px;
+    
 }
 
 #footer-item-centre {
     text-align: center;
     width: 33%;
     margin: 0 auto;
-    margin-top: 54px;
+    padding-top: 54px;
+    
 }
 
 #footer-item-right {
     float: right;
     text-align: center;
     width: 33%;
-    margin-top: -130px;
+    margin-top: -190px;
 }
 
 #footer-item-right li {
