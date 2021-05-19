@@ -513,6 +513,7 @@ footer i {
 .mySlides {
     display: none;
     position: relative;
+    width:100%;
 
     /*creates zoom effect*/
     animation-name: slideshow-zoom;
@@ -553,7 +554,8 @@ footer i {
 
     }
 
-    #testimonial,
+#testimonial,
+   
     .to-right {
         text-align: center;
     }
@@ -562,7 +564,8 @@ footer i {
     #menu li,
     .to-left,
     .to-right,
-    #testimonial img {
+   #testimonial img
+     {
         margin: auto;
         float: left;
         /*this was changed from float: none as on # testimonial li image kept centering*/
