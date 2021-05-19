@@ -506,8 +506,13 @@ footer i {
     margin: 8px 0 0 40px;
 
 }
+/*class added for slideshow*/
 
+.mySlides {display: none;}
 
+/* try to add w3 classes*/
+
+.w3-center 
 
 /*team-members ul list and items deletd*/
 
