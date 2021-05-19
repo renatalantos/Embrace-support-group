@@ -12,11 +12,10 @@ font-family: 'Rubik', sans-serif; */
 
 body {
     font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+    font-weight:normal;
     background-color #D7C3CC;
     color: #1B1A1E;
-    padding: 0;
-    margin: 0;
+
     background-color: #CFC4F41;
 }
 
@@ -252,11 +251,12 @@ footer a:active {
     overflow: hidden;
     position: relative;
     text-align: center;
-    background-color: #DFEDF4;
+    background-color: rgba(223, 237, 244, .8);
+
 }
 
-#hero-text-area h1, h3{
-    padding: 30px 0 30px 0;
+#hero-text-area h1 {
+    padding: 30px;
 
 }
 
@@ -267,10 +267,10 @@ footer a:active {
     height: 500px;
 
     position: relative;
-  
+    /*css transitions*/
     animation-name: pushLeft;
     animation-duration: 20s;
-    
+
 
 }
 
@@ -278,26 +278,45 @@ footer a:active {
 
 
 
-/*css tansitions*/
+/*css transitions*/
 @keyframes pushLeft {
-    0%   { left:0px; top:0px;}
-    25%  {left: 10px; top: 0px;}
-    50%  { left:20px; top:0px;}
-    75% { left: 10px; top: 0px;}
-    100% {left:0px; top:0px;}
-  }
-  
+    0% {
+        left: 40px;
+        top: 0px;
+    }
 
-.to-right p{
+    25% {
+        left: 30px;
+        top: 0px;
+    }
+
+    50% {
+        left: 20px;
+        top: 0px;
+    }
+
+    75% {
+        left: 10px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+.to-right p {
 
     page-break-inside: auto;
     text-indent: 20px;
     text-align: justify;
     margin: 50px;
-    
 
-    
-    
+
+
+
 
 }
 
@@ -313,19 +332,37 @@ footer a:active {
     text-align: center;
     /*css tansitions*/
     position: relative;
-  
+
     animation-name: pushRight;
     animation-duration: 20s;
 }
 
 @keyframes pushRight {
-    0%   { right:0px; top:0px;}
-    25% { right: 10px; top: 0px;}
-    50%  { right:20px; top:0px;}
-    75 % {right: 10px; top: 0px:}
-    
-    100% {right:0px; top:0px;}
-  }
+    0% {
+        right: 40px;
+        top: 0px;
+    }
+
+    25% {
+        right: 30px;
+        top: 0px;
+    }
+
+    50% {
+        right: 20px;
+        top: 0px;
+    }
+
+    75 % {
+        right: 10px;
+        top: 0px:
+    }
+
+    100% {
+        right: 0px;
+        top: 0px;
+    }
+}
 
 
 .to-left,
@@ -333,6 +370,7 @@ footer a:active {
     border: .5px solid rgba(139, 133, 136, .2);
     background-color: #F4F6F4;
     box-sizing: border-box;
+    
 
 
 }
@@ -349,13 +387,17 @@ footer a:active {
 
 
 #testimonial li {
-    width: 100%;
+    width: 50%;
+    text-align: center;
+
+
     border: .5px solid rgba(139, 133, 136, .2);
     background-color: #F4F6F4;
-    height: 150px;
+    height: 250px;
     border-radius: 5px;
     list-style-type: none;
-    margin: 16px;
+
+
     box-sizing: border-box;
     display: inline;
     float: left;
@@ -363,8 +405,7 @@ footer a:active {
 }
 
 #testimonial li p,
-#team-founders p 
-{
+#team-founders p {
     page-break-inside: auto;
     text-indent: 20px;
     padding: 20px;
@@ -395,7 +436,7 @@ footer a:active {
     width: 33%;
     margin: 0 auto;
     padding-top: 54px;
-    
+
 }
 
 #footer-item-centre {
@@ -403,7 +444,7 @@ footer a:active {
     width: 33%;
     margin: 0 auto;
     padding-top: 54px;
-    
+
 }
 
 #footer-item-right {
@@ -458,13 +499,13 @@ footer i {
 }
 
 #concerns li {
-   
-   
+
+
     font-size: 20px;
     text-align: justify;
     margin: 8px 0 0 40px;
-    
-    }
+
+}
 
 
 
@@ -472,7 +513,7 @@ footer i {
 
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the #container */
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 500px) {
 
     #cover-text {
         width: auto;
@@ -485,16 +526,18 @@ footer i {
         text-align: center;
     }
 
+    #testimonial li,
     #menu li,
     .to-left,
     .to-right,
     #testimonial img {
         margin: auto;
-        float: none;
+        float: left;
+        /*this was changed from float: none as on # testimonial li image kept centering*/
         display: block;
         width: auto;
         height: auto;
-        
+
     }
 
     .to-left img {
