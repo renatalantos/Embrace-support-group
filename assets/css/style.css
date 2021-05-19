@@ -12,7 +12,7 @@ font-family: 'Rubik', sans-serif; */
 
 body {
     font-family: 'Roboto Slab', serif;
-    font-weight:normal;
+    font-weight: normal;
     background-color #D7C3CC;
     color: #1B1A1E;
 
@@ -25,7 +25,7 @@ footer {
     width: 100%;
     min-height: 140px;
     background-color: #2F4858;
-   overflow: hidden;
+    overflow: hidden;
 }
 
 #logo {
@@ -121,6 +121,7 @@ footer a:active {
     background-color: rgb(255, 255, 255, .7);
     animation: fadeIn 20s;
     position: absolute;
+
 
     /*animation to fade label in and out*/
     -webkit-animation: fadeIn 20s;
@@ -370,7 +371,7 @@ footer a:active {
     border: .5px solid rgba(139, 133, 136, .2);
     background-color: #F4F6F4;
     box-sizing: border-box;
-    
+
 
 
 }
@@ -506,18 +507,39 @@ footer i {
     margin: 8px 0 0 40px;
 
 }
+
 /*class added for manual slideshow*/
 
-.mySlides {display: none;
+.mySlides {
+    display: none;
+    position: relative;
+
+    /*creates zoom effect*/
+    animation-name: slideshow-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
 }
+
+/*level of zoom for slideshow images*/
+
+@keyframes slideshow-zoom {
+
+    from {
+        transform: scale(.8)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+
 
 /*class to show first slide*/
 .first-slide {
-    display:block;
-} 
-
-
-
+    display: block;
+}
 
 
 
