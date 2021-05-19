@@ -25,7 +25,7 @@ footer {
     width: 100%;
     min-height: 140px;
     background-color: #2F4858;
-    overflow: hidden;
+   overflow: hidden;
 }
 
 #logo {
@@ -506,15 +506,20 @@ footer i {
     margin: 8px 0 0 40px;
 
 }
-/*class added for slideshow*/
+/*class added for manual slideshow*/
 
-.mySlides {display: none;}
+.mySlides {display: none;
+}
 
-/* try to add w3 classes*/
+/*class to show first slide*/
+.first-slide {
+    display:block;
+} 
 
-.w3-center 
 
-/*team-members ul list and items deletd*/
+
+
+
 
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the #container */
