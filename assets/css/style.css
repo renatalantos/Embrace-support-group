@@ -13,10 +13,15 @@ font-family: 'Rubik', sans-serif; */
 body {
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    background-color #D7C3CC;
     color: #1B1A1E;
 
-    background-color: #CFC4F41;
+   /* background-color: #CFC4F41; */
+    background-color: rgba(223, 237, 244, .8) /* or should this go int #hero-text-area?*/
+    
+    
+    
+
+
 }
 
 /*header, footer and logo */
@@ -26,8 +31,13 @@ footer {
     min-height: 140px;
     background-color: #2F4858;
     overflow: hidden;
+    clear: both;
+    
+    
 }
-
+#footer {position: absolute;
+    bottom: 0;
+    width: 100%;}
 #logo {
     background-image: url('../images/embrace_logo.png');
     background-repeat: no-repeat;
@@ -78,10 +88,10 @@ footer a:active {
 /*main image area*/
 
 #hero-outer {
-    height: 500px;
+   /* height: 500px;*/ height: 100%;
     width: 100%;
     overflow: hidden;
-    position: relative;
+ position: relative;
 }
 
 
@@ -238,7 +248,7 @@ footer a:active {
 /*motto text*/
 
 .cover-text p {
-    color: rgb(133, 39, 39, .5);
+   
     font-weight: initial;
     font-family: Rubik, serif;
     font-size: 50px;
@@ -247,12 +257,12 @@ footer a:active {
 }
 
 #hero-text-area {
-    height: auto;
+    height: 100; /*height:auto*/
     width: 100%;
     overflow: hidden;
-    position: relative;
+   position: relative;
     text-align: center;
-    background-color: rgba(223, 237, 244, .8);
+  
 
 }
 
@@ -508,6 +518,7 @@ footer i {
 
 }
 
+
 /*class added for manual slideshow*/
 
 .mySlides {
@@ -537,10 +548,14 @@ footer i {
 
 
 
-/*class to show first slide*/
+/*class to show first slide in w3 slideshow*/
 .first-slide {
     display: block;
 }
+
+.w3-display-container { padding: 20px;
+
+
 
 
 
