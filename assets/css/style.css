@@ -33,8 +33,8 @@ footer {
     background-color: #2F4858;
     overflow: hidden;
     position: relative;
-    
-    
+
+
 
 
 }
@@ -91,8 +91,8 @@ footer a:active {
 /*main image area*/
 
 #hero-outer {
-   /* height: 500px;*/
-  height: 100%;  
+    /* height: 500px;*/
+    height: 100%;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -220,7 +220,7 @@ footer a:active {
     }
 }
 
-/*summarylabel text*/
+/*summary label text*/
 
 #hero-summary h1 {
     font-size: 50px;
@@ -251,24 +251,20 @@ footer a:active {
 
 /*motto text*/
 
-.cover-text p {
-
+#cover-text p {
     font-weight: initial;
     font-family: Rubik, serif;
-    font-size: 50px;
-    text-align: center;
+    text-align:justify;
     padding-right: 20px;
 }
 
 #hero-text-area {
     /*or height: 100%*/
-    height:auto;
+    height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
     text-align: center;
-
-
 }
 
 #hero-text-area h1 {
@@ -276,67 +272,25 @@ footer a:active {
 
 }
 
+/*Style right and left divs of the text area and their elements*/
+
 .to-right {
     float: right;
     width: 50%;
     /*  background-color: blue; */
     height: 500px;
-
     position: relative;
-    /*css transitions*/
-    animation-name: pushLeft;
-    animation-duration: 20s;
-
 
 }
 
-
-
-
-
-/*css transitions*/
-@keyframes pushLeft {
-    0% {
-        left: 40px;
-        top: 0px;
-    }
-
-    25% {
-        left: 30px;
-        top: 0px;
-    }
-
-    50% {
-        left: 20px;
-        top: 0px;
-    }
-
-    75% {
-        left: 10px;
-        top: 0px;
-    }
-
-    100% {
-        left: 0px;
-        top: 0px;
-    }
-}
 
 
 .to-right p {
-
     page-break-inside: auto;
     text-indent: 20px;
     text-align: justify;
     margin: 50px;
-
-
-
-
-
 }
-
-
 
 
 
@@ -346,39 +300,10 @@ footer a:active {
     /* background-color: green;*/
     height: 500px;
     text-align: center;
-    /*css tansitions*/
     position: relative;
-
-    animation-name: pushRight;
-    animation-duration: 20s;
 }
 
-@keyframes pushRight {
-    0% {
-        right: 40px;
-        top: 0px;
-    }
 
-    25% {
-        right: 30px;
-        top: 0px;
-    }
-
-    50% {
-        right: 20px;
-        top: 0px;
-    }
-
-    75 % {
-        right: 10px;
-        top: 0px:
-    }
-
-    100% {
-        right: 0px;
-        top: 0px;
-    }
-}
 
 
 .to-left,
@@ -387,11 +312,9 @@ footer a:active {
     background-color: #F4F6F4;
     box-sizing: border-box;
 
-
-
 }
 
-.to-left img {
+.to-left img, iframe {
     background-repeat: no-repeat;
     height: 350px;
     /*change to fixed value?*/
@@ -400,24 +323,19 @@ footer a:active {
 
 }
 
-
+/*Style the testimonials unordered list and its elements*/
 
 #testimonial li {
     width: 50%;
     text-align: center;
-
-
     border: .5px solid rgba(139, 133, 136, .2);
     background-color: #F4F6F4;
     height: 250px;
     border-radius: 5px;
     list-style-type: none;
-
-
     box-sizing: border-box;
     display: inline;
     float: left;
-
 }
 
 #testimonial li p,
@@ -446,13 +364,14 @@ footer a:active {
     border-radius: 50%;
 }
 
+/*Style the footer divs and their elements*/
+
 #footer-item-left {
     float: left;
     text-align: center;
     width: 33%;
     margin: 0 auto;
     padding-top: 54px;
-
 }
 
 #footer-item-centre {
@@ -460,7 +379,6 @@ footer a:active {
     width: 33%;
     margin: 0 auto;
     padding-top: 54px;
-
 }
 
 #footer-item-right {
@@ -482,8 +400,6 @@ footer h6 {
     line-height: 16px;
     padding-top: 20px;
     padding-bottom: 20px;
-
-
 }
 
 footer i {
@@ -494,7 +410,7 @@ footer i {
     padding-right: 15px;
 }
 
-
+/*Style the team-founders unordered list and its elements*/
 
 #team-founders li {
     display: inline;
@@ -514,23 +430,21 @@ footer i {
     padding-top: 20px;
 }
 
+/*Style the concerns unordered list*/
 #concerns li {
-
-
     font-size: 20px;
     text-align: justify;
     margin: 8px 0 0 40px;
-
 }
 
 
-/*class added for manual slideshow*/
+/*class added for manual slideshow on gallery page*/
 
 .mySlides {
     display: none;
     position: relative;
     width: 100%;
-    
+
 
     /*creates zoom effect*/
     animation-name: slideshow-zoom;
@@ -576,7 +490,7 @@ footer i {
     padding: 10px;
     position: absolute;
     border-radius: 5%;
-      
+
 
 }
 
@@ -584,76 +498,82 @@ footer i {
 
 
 
-    /* Add media queries for responsiveness. This will center both the text and the image inside the #container */
-    @media screen and (max-width: 480px) {
+/* Add media queries for responsiveness. This will center both the text and the image inside the #container */
+@media screen and (max-width: 500px) {
 
-        #cover-text {
-            width: auto;
-            margin-left: 20px;
+    #cover-text {
+        width: auto;
+        margin-left: 20px;
 
-        }
-
-        #testimonial,
-
-        .to-right {
-            text-align: center;
-        }
-
-        #testimonial li,
-        #menu li,
-        .to-left,
-        .to-right,
-        #testimonial img {
-            margin: auto;
-            float: left;
-            /*this was changed from float: none as on # testimonial li image kept centering*/
-            display: block;
-            width: auto;
-            height: auto;
-            text-align: center;
-
-        }
-
-        .to-left img {
-            margin: auto;
-            float: none;
-            display: block;
-        }
-
-        #footer-item-left,
-        #footer-item-centre,
-        #footer-item-right {
-            margin: auto;
-            float: none;
-            display: block;
-            text-align: center;
-            width: auto;
-            height: auto;
-        }
-
-        #footer-item-left {
-            margin: 30px 0;
-        }
-
-        #menu li {
-            margin-bottom: 10px;
-        }
-
-        #footer-item-right,
-        #footer-item-centre {
-            margin-bottom: 30px;
-        }
-
-        #team-founders li {
-
-            margin: auto;
-            float: none;
-            display: block;
-            text-align: center;
-            width: auto;
-            height: auto;
-        }
-
-        #cover-text {visibility:hidden;}
-        #hero-summary { margin: 0 auto;}
     }
+
+    #testimonial,
+
+    .to-right {
+        text-align: center;
+    }
+
+    #testimonial li,
+    #menu li,
+    .to-left,
+    .to-right,
+    #testimonial img {
+        margin: auto;
+        float: left;
+        /*this was changed from float: none as on # testimonial li image kept centering*/
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+
+    }
+
+    .to-left img, iframe{
+        margin: auto;
+        float: none;
+        display: block;
+    }
+
+    #footer-item-left,
+    #footer-item-centre,
+    #footer-item-right {
+        margin: auto;
+        float: none;
+        display: block;
+        text-align: center;
+        width: auto;
+        height: auto;
+
+    }
+
+    #footer-item-left {
+        margin: 30px 0;
+    }
+
+    #menu li {
+        margin-bottom: 10px;
+    }
+
+    #footer-item-right,
+    #footer-item-centre {
+        margin-bottom: 30px;
+    }
+
+    #team-founders li {
+
+        margin: auto;
+        float: none;
+        display: block;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+
+    #cover-text {
+        visibility: hidden;
+    }
+
+    #hero-summary {
+        margin: 0 auto;
+    }
+}
