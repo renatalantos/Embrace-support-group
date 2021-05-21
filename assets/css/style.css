@@ -271,7 +271,6 @@ footer a:active {
 
 #hero-text-area h1 {
     padding: 30px;
-
 }
 
 /*Style right and left divs of the text area and their elements*/
@@ -358,7 +357,8 @@ footer a:active {
 }
 
 /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-#testimonial li img {
+
+#testimonial li img, #psych {
     float: left;
     margin: 20px;
     height: 120px;
@@ -381,13 +381,15 @@ footer a:active {
     width: 33%;
     margin: 0 auto;
     padding-top: 54px;
+    display: inline-block;
 }
 
 #footer-item-right {
     float: right;
     text-align: center;
     width: 33%;
-    margin-top: -190px;
+    margin: 0 auto;
+    padding-top: 54px;
 }
 
 #footer-item-right li {
@@ -503,23 +505,34 @@ footer i {
     width: 50%;
     height: 800px; 
     float:right;
-    background-color: yellow;        
+    background-color: yellow;
+          
 }
 
 .to-left-small{
     width: 50%;
     height: 400px; 
     float:left;
-    background-color: red;
     text-align: left;
     padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Rubik', sans-serif;
+    background-color: red;
+    
+
 }
+
 
 .map { height:600px;
 width: 500px;
 margin: 0 auto;
 
 }
+
+
+
+
+
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the #container */
 @media screen and (max-width: 500px) {
@@ -540,7 +553,8 @@ margin: 0 auto;
     #menu li,
     .to-left,
     .to-right,
-    #testimonial img {
+    #testimonial img,
+    {
         margin: auto;
         float: left;
         /*this was changed from float: none as on # testimonial li image kept centering*/
