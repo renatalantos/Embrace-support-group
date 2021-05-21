@@ -512,19 +512,21 @@ footer i {
 
 /* style divs for contact page and their elements*/
 
-
+.push-down-hero-text-area{
+    margin-top: 140px;}
 
 .to-right-large {
     width: 50%;
-    height: 100%;
+    height: 800px;
     float: right;
     background-color: yellow;
+    margin: 0 auto;
 
 }
 
 .to-left-small {
     width: 50%;
-    height: 50%;
+    height: 400px;
     float: left;
     text-align: left;
     padding-left: 20px;
@@ -540,7 +542,6 @@ footer i {
 .map {
     height: 600px;
     width: 500px;
-    margin: 0 auto;
 
 }
 
