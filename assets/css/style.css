@@ -265,12 +265,13 @@ footer a:active {
     height: auto;
     width: 100%;
     overflow: hidden;
-    position: relative;
+   position: relative;
     text-align: center;
 }
 
 #hero-text-area h1 {
     padding: 30px;
+   clear:both;
 }
 
 /*Style right and left divs of the text area and their elements*/
@@ -280,7 +281,8 @@ footer a:active {
     width: 50%;
     /*  background-color: blue; */
     height: 500px;
-    position: relative;
+   position: relative;
+
 
 }
 
@@ -301,7 +303,9 @@ footer a:active {
     /* background-color: green;*/
     height: 500px;
     text-align: center;
-    position: relative;
+     position: relative;
+     
+
 }
 
 
@@ -381,7 +385,7 @@ footer a:active {
     width: 33%;
     margin: 0 auto;
     padding-top: 54px;
-    display: inline-block;
+  /* display: inline-block;*/
 }
 
 #footer-item-right {
@@ -553,7 +557,7 @@ margin: 0 auto;
     #menu li,
     .to-left,
     .to-right,
-    #testimonial img,
+    #testimonial img
     {
         margin: auto;
         float: left;
@@ -576,26 +580,20 @@ margin: 0 auto;
     #footer-item-right {
         margin: auto;
         float: none;
-        display: block;
+        display:block;
         text-align: center;
         width: auto;
         height: auto;
+        margin: 10px;
 
     }
 
-    #footer-item-left {
-        margin: 30px 0;
-    }
-
+   
     #menu li {
         margin-bottom: 10px;
     }
 
-    #footer-item-right,
-    #footer-item-centre {
-        margin-bottom: 30px;
-    }
-
+    
     #team-founders li {
 
         margin: auto;
