@@ -33,11 +33,12 @@ footer {
 
 }
 
-/*to keep header in fixed position and to gt it to appear in front*/
+/*to keep header in fixed position and to get it to appear in front*/
 header {
-   position: fixed;
+    position: fixed;
     z-index: 1;
-    top: 0; 
+    top: 0;
+    line-height: 140px;
 }
 
 
@@ -48,10 +49,10 @@ header {
     height: 100px;
     width: 100px;
     float: left;
-    margin-left: 30px;
-    border-radius: 5px; 
-    margin-top:20px;
- 
+    border-radius: 5px;
+    margin: 20px 30px;
+
+
 }
 
 /*header navigation links and footer links */
@@ -63,8 +64,6 @@ header {
 #menu li {
     float: left;
     padding-right: 30px;
-    padding-top: 50px;
-    margin-bottom: 50px;
     list-style-type: none;
     display: inline;
 }
@@ -76,7 +75,6 @@ footer a {
     font-family: Rubik, serif;
     font-weight: 500;
     font-size: 25px;
-    line-height: 32px;
 }
 
 #menu a:hover,
@@ -267,12 +265,13 @@ footer a:active {
     width: 100%;
     overflow: hidden;
     position: relative;
-    text-align: center;
+    /*  text-align: center; */
 }
 
 #hero-text-area h1 {
     padding: 30px;
     clear: both;
+    text-align: center;
 
 }
 
@@ -525,8 +524,9 @@ footer i {
     width: 50%;
     height: 800px;
     float: right;
-    background-color: yellow;
-    margin: 0 auto;
+    /* background-color: yellow;*/
+    text-align: center;
+
 
 }
 
@@ -534,13 +534,8 @@ footer i {
     width: 50%;
     height: 400px;
     float: left;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
     font-family: 'Rubik', sans-serif;
-    background-color: red;
-
-
+    /*  background-color: red;*/
 
 }
 
@@ -548,12 +543,36 @@ footer i {
 .map {
     height: 600px;
     width: 500px;
-    margin-top: 100px;
+
+    border: .5px solid rgba(139, 133, 136, .2);
+
+}
+
+.contact-form {
+    border: .5px solid rgba(139, 133, 136, .2);
+    background-color: #C5FCEE;
+}
+
+.text-input,
+.email-input,
+.text-label,
+.email-label {
+    
+    padding-left: 20px;
+}
+.text-input input, .email-input input {
+
+    border: 5px solid rgba(19, 17, 18, 0.2);
+    border-radius: .5px;
+    
 
 }
 
 
-
+#form {
+    padding-left: 20px;
+    margin: 0 auto;
+}
 
 
 
