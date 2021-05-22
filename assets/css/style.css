@@ -30,15 +30,17 @@ footer {
     min-height: 140px;
     background-color: #2F4858;
     overflow: hidden;
-    /*  position: relative;*/
+
 }
 
-/*to keep header in fixed position and appear in front*/
+/*to keep header in fixed position and to gt it to appear in front*/
 header {
-    position: fixed;
+   position: fixed;
     z-index: 1;
-    top: 0;
+    top: 0; 
 }
+
+
 
 #logo {
     background-image: url('../images/embrace_logo.png');
@@ -46,9 +48,10 @@ header {
     height: 100px;
     width: 100px;
     float: left;
-    margin-top: 20px;
     margin-left: 30px;
-    border-radius: 5px;
+    border-radius: 5px; 
+    margin-top:20px;
+ 
 }
 
 /*header navigation links and footer links */
@@ -305,7 +308,7 @@ footer a:active {
     text-indent: 20px;
     text-align: justify;
     padding: 20px;
-    
+
 }
 
 
@@ -332,8 +335,10 @@ footer a:active {
 }
 
 
-.right-text-container {display:table-cell;
-vertical-align: middle;}
+.right-text-container {
+    display: table-cell;
+    vertical-align: middle;
+}
 
 /*Style the testimonials unordered list and its elements*/
 
@@ -512,8 +517,9 @@ footer i {
 
 /* style divs for contact page and their elements*/
 
-.push-down-hero-text-area{
-    margin-top: 140px;}
+.push-down-hero-text-area {
+    margin-top: 140px;
+}
 
 .to-right-large {
     width: 50%;
@@ -542,6 +548,7 @@ footer i {
 .map {
     height: 600px;
     width: 500px;
+    margin-top: 100px;
 
 }
 
