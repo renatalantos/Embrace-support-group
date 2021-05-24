@@ -813,9 +813,14 @@ footer i {
     }
 }*/
 
+/*For Mobile Phones @media (max-width:480px){}
+For Tablets @media (max-width:960px){}
+For Laptops/Desktop @media (min-width:1025px){}
+For Hi-Res Laptops @media (max-width:1280px){}*/
+
 /*For both portrait and landscape view on mobile phones*/
 
-@media (min-width:280px) and (max-width:800px) {
+@media (min-width:320px) and (max-width:480px) {
 
     header {
         position: relative;
@@ -964,6 +969,19 @@ footer i {
 
     .to-left-small {
         text-align: justify;
+
+    }
+
+}
+/*For both portrait and landscape view on tablet devices*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+    .to-left iframe {
+        margin:0 auto;
+        float: none;
+        display: block;
+        height: auto;
+        width: auto;
 
     }
 
