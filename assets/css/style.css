@@ -719,8 +719,19 @@ footer i {
     text-decoration: underline;
 }
 
-.topnav { height:0; width:0}
-.topnav #myLinks { height:0; width:0}
+.topnav {
+    height: 0;
+    width: 0
+}
+
+.topnav #myLinks {
+    height: 0;
+    width: 0
+}
+
+.icon {
+    visibility: hidden;
+}
 
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the #container*/
@@ -895,17 +906,24 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
 @media screen and (min-width:280px) and (max-width:767px) {
 
-    header {
+  /header {
         position: relative;
+        min-height:140px;
+        
 
     }
 
-    #menu li a {
+  /* #menu li a {
         float: none;
         width: 100%;
         margin-left: 20px;
-        visibility: hidden;
-    }
+        
+    }*/
+     #menu li {
+         height:0;
+         float:left;
+         visibility:hidden;
+     }
 
 
 
@@ -1111,17 +1129,19 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     }
 
     .topnav {
-        overflow: hidden;
+        z-index: 10;
         background-color: #845EC2;
-        position: relative;
+        height: auto;
+        width: 100px;
+        
         float: right;
         /*Add measurements in mobile view only*/
         /*for normal view when everything is turned off
             height: 0;
             width: 0;*/
 
-        height: 200px;
-        width: 170px;
+            height: auto;
+            width:100px;
 
 
     }
@@ -1133,10 +1153,10 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         /*for normal view when everything is turned off
             height: 0;
             width: 0;*/
+height: auto;
+width:100px;
 
-
-        height: 40px;
-        width: 170px;
+        
     }
 
 
@@ -1154,7 +1174,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     /* .icon {visibility:hidden;} for mobile view, turn on*/
 
 
- .icon {
+    .icon {
         font-size: 100px;
         color: white;
         float: right;
@@ -1172,7 +1192,6 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     /* Add a grey background color on mouse-over */
     .topnav a:hover {
         background-color: #8D7257;
-        ;
         color: rgb(30, 107, 117);
     }
 
@@ -1207,4 +1226,3 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     }
 
 }
-
