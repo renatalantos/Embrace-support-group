@@ -27,7 +27,7 @@ body {
 header,
 footer {
     width: 100%;
-    min-height: 140px;
+    height: min-height: 140px; /*change for ham menu testing from min-height:140px;*/
     background-color: #2F4858;
     /* background-color: #2E0079;*/
     overflow: hidden;
@@ -1123,6 +1123,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     background-color: blue;
     position: relative;
     /*Add measurements in mobile view only*/
+    
 
     
     
@@ -1130,7 +1131,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
   
   /* Hide the links inside the navigation menu (except for logo/home) */
  .topnav #myLinks {
-    display: none;
+    visibility: hidden;
   }
   /* Style navigation menu links */
   .topnav a {
@@ -1139,11 +1140,15 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     text-decoration: none;
     font-size: 17px;
     display: block;
-  /*  height:60px;
-    width:100px;*/
+   height:60px;
+    width:100px;
   }
  /* .icon {visibility:hidden;} for mobile view, turn on*/ 
 
+ /*.icon { height: 100px;
+width: 100px;
+border-radius: 5px; 
+}*/
 
   /* Style the hamburger menu */
  .topnav a.icon {
