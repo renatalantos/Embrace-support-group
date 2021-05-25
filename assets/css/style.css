@@ -28,7 +28,7 @@ header,
 footer {
     width: 100%;
     min-height: 140px;
-    /*change for ham menu testing from min-height:140px;*/
+   
     background-color: #2F4858;
     /* background-color: #2E0079;*/
     overflow: hidden;
@@ -61,9 +61,7 @@ header {
 
 #menu {
     float: right;
-    visibility: visible;
-    /*turned off for testing the hamburger menu*/
-
+    
 
 
 
@@ -74,9 +72,7 @@ header {
     padding-right: 30px;
     list-style-type: none;
     display: inline;
-    visibility: visible;
-    /*Testing hamburger menu*/
-
+    
 }
 
 #menu a,
@@ -719,19 +715,6 @@ footer i {
     text-decoration: underline;
 }
 
-.topnav {
-    height: 0;
-    width: 0
-}
-
-.topnav #myLinks {
-    height: 0;
-    width: 0
-}
-
-.icon {
-    visibility: hidden;
-}
 
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the #container*/
@@ -906,24 +889,20 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
 @media screen and (min-width:280px) and (max-width:767px) {
 
-  /header {
+header {
         position: relative;
-        min-height:140px;
+    
         
 
     }
 
-  /* #menu li a {
+   #menu li a {
         float: none;
         width: 100%;
         margin-left: 20px;
         
-    }*/
-     #menu li {
-         height:0;
-         float:left;
-         visibility:hidden;
-     }
+    }
+    
 
 
 
@@ -1123,90 +1102,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
     }
 
-    /*For hamburger menu*/
-    #menu {
-        visibility: hidden;
-    }
-
-    .topnav {
-        z-index: 10;
-        background-color: #845EC2;
-        height: auto;
-        width: 100px;
-        
-        float: right;
-        /*Add measurements in mobile view only*/
-        /*for normal view when everything is turned off
-            height: 0;
-            width: 0;*/
-
-            height: auto;
-            width:100px;
-
-
-    }
-
-    /* Hide the links inside the navigation menu (except for logo/home) */
-    .topnav #myLinks {
-        visibility: visible;
-        /*Add measurements in mobile view only*/
-        /*for normal view when everything is turned off
-            height: 0;
-            width: 0;*/
-height: auto;
-width:100px;
-
-        
-    }
-
-
-    /* Style navigation menu links */
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-        text-align: center;
-
-    }
-
-    /* .icon {visibility:hidden;} for mobile view, turn on*/
-
-
-    .icon {
-        font-size: 100px;
-        color: white;
-        float: right;
-        margin-right: 30px;
-        visibility: visible;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-
-    }
-
-
-
-    /* Add a grey background color on mouse-over */
-    .topnav a:hover {
-        background-color: #8D7257;
-        color: rgb(30, 107, 117);
-    }
-
-    /*Style the active link (or home/logo) */
-    .active {
-        background-color: #852727;
-        color: white;
-    }
-
-}
-
-
-
-
-
+    
 /*For landscape view on large desktops*/
 @media screen and (min-width: 1500px) {
 
