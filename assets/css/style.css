@@ -725,7 +725,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
     /*For both portrait and landscape view on mobile phones*/
 
-    @media screen and (min-width:280px) and (max-width:767px) {}
+    @media screen and (min-width:280px) and (max-width:767px) {
 
     header {
         position: relative;
