@@ -60,6 +60,11 @@ header {
 
 #menu {
     float: right;
+    visibility:hidden; /*turned off for testing the hamburger menu*/
+   
+
+   
+    
 }
 
 #menu li {
@@ -67,6 +72,7 @@ header {
     padding-right: 30px;
     list-style-type: none;
     display: inline;
+
 }
 
 #menu a,
@@ -81,7 +87,10 @@ footer a {
 #menu a:hover,
 footer a:hover,
 .submit:hover,
-#conf-button a:hover {
+#conf-button a:hover
+
+
+{
     color: #8D7257;
 }
 
@@ -440,7 +449,6 @@ footer a:active,
     display: inline;
 
 }
-
 footer h6 {
     color: white;
     font-family: 'Rubik', sans-serif;
@@ -704,6 +712,9 @@ footer i {
     
 
 }
+.underline {text-decoration: underline;}
+
+
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the #container*/
 
@@ -767,8 +778,8 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     .to-right p {
         padding: 20px
     }
-
-    #testimonial li {
+/*Leave out for tablet view?*/
+   #testimonial li {
         margin: auto;
         float: left;
         display: block;
@@ -812,7 +823,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         margin: 10px;
 
     }
-   /*this was left out of tablet view*/
+   /*Leave out for tablet view?*/
    #team-founders li {
 
     margin: auto;
@@ -868,64 +879,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
  }
    
 
-
-
-
-
- #team-founders li {
-
-    margin: auto;
-    float: none;
-    display: block;
-    text-align: center;
-    width: auto;
-    height: auto;
- }
-
- #cover-text {
-    visibility: hidden;
- }
-
- #hero-summary {
-    width: 100%;
-
-    margin: 0;
-
- }
-
-
-
- .to-left-small {
-    margin: auto;
-    float: none;
-    display: block;
-    text-align: center;
-    width: auto;
-    height: auto;
- }
-
- .to-right-large {
-    margin: auto;
-    float: none;
-    display: block;
-    text-align: center;
-    width: auto;
-    height: auto;
- }
-
- #form {
-    padding: 0;
- }
-
- footer h6 {
-    visibility: hidden;
- }
-
- .to-left-small {
-    text-align: justify;
-
- }
-
+ 
 }
 
 /*For both portrait and landscape view on mobile phones*/
@@ -1162,3 +1116,54 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
     }
 }
+
+/*Test - DO NOT DELETE ABOVE!!!!!!!!!!!! -*/
+.topnav {
+    overflow: hidden;
+    background-color: blue;
+    position: relative;
+    /*Add measurements in mobile view only*/
+
+    
+    
+}
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+ .topnav #myLinks {
+    display: none;
+  }
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  /*  height:60px;
+    width:100px;*/
+  }
+ /* .icon {visibility:hidden;} for mobile view, turn on*/ 
+
+
+  /* Style the hamburger menu */
+ .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    
+    
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: yellow;
+    color: black;
+  }
+  
+  /*Style the active link (or home/logo) */
+  .active {
+    background-color: red;
+    color: white;
