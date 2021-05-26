@@ -10,6 +10,7 @@
   * Sessions
   * Gallery
   * Contact
+  * Confidentiality (page not displayed in navbar, opens from a footer link)
 
 * UX
   * Business Goals
@@ -40,7 +41,7 @@
 * Acknowledgements
 
 ## Home
-
+The Homepage introduces the purpose and the main activity of the group, the vision and responses.
 The home page consists of the following sections:
 
 * Welcome
@@ -60,6 +61,7 @@ The home page consists of the following sections:
 
 ## About 
 
+The About page introduces the group leader, describes the benefits and gives information about the venue and times. 
 The About page consists of the following sections:
 
 * Our Group Leaders
@@ -67,9 +69,10 @@ The About page consists of the following sections:
 * Group Therapy Benefits 
 
 * Meetups 
-[About page main image]()
 
-[Our group leaders section]()
+[About page main image](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/About_page_main_image.JPG)
+
+[Our group leaders section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Group_leaders_tablet_view.JPG)
 
 [Group Therapy Benefits Section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Benefits_tablet_view.JPG)
 
@@ -77,6 +80,7 @@ The About page consists of the following sections:
 
 
 ## Sessions
+The Sessions page intoduces the sessions in more detail. It provides a video, discussed topic and activities outside the sessions.
 
 The Sessions page consists of the following sections:
 
@@ -86,7 +90,7 @@ The Sessions page consists of the following sections:
 
 * Other Activities
 
-[Sessions page main image]()
+[Sessions page main image](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/sessions_page_main_image.JPG)
 
 [How It Happens Section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Actual_session_mobile_view.JPG)
 
@@ -94,13 +98,16 @@ The Sessions page consists of the following sections:
 
 [Other Activities Section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/activites_mobile_view.JPG)
 
+
 ## Gallery 
 
 The gallery page consists of a heading and slideshow image gallery. 
 
 [Gallery page slideshow gallery](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Gallery_slideshow_tablet_view.JPG)
 
-## Contact
+
+## Contact  
+The contact pages provides means for users to get in touch with the group.
 
 The contact page consist of the following sections:
 
@@ -113,9 +120,16 @@ The contact page consist of the following sections:
 * Map to the venue
 
 [Contact details](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Contacts_desktop_view.JPG)
+
 [Contact a child psychologist](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Contacts_desktop_view.JPG)
-[Signup for newsletter form]()
+
+[Signup for newsletter form](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Signup_form_desktop_view.JPG)
+
 [Map to the venue](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Map_mobile_view.JPG)
+
+## Confidentiality
+
+This page opens from the Confidentiality link in the footer. It is a mere confidentiality statement. It is styled as the body of the other pages, however, it is meant to be a document and therefore has no header or footer. 
 
 
 
