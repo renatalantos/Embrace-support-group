@@ -1,30 +1,30 @@
-# Milestone Project 1 - Embrace Support Group#
+# Milestone Project 1 - Embrace Support Group
 ![image](https://user-images.githubusercontent.com/82510814/119694410-1a685c80-be45-11eb-9f54-7d8e9e37d6df.png)
 
 ## Table of Contents
 
 * Introduction
+* UX
+  * Business goals
+  * Owner Goals
+  * User Goals
 
+* Layout
   * Home
   * About
   * Sessions
   * Gallery
   * Contact
-  * Confidentiality (page not displayed in navbar, opens from a footer link)
-
-* UX
-  * Business Goals
-  * Owner Goals
-  * User Goals
-
-* Features
+  * Confidentiality 
+  
+ * Features
   * Features used
   * Features to implement
-  
-  
+
 
 * Structure
   * Wireframes
+  * Discrepancies with original ideas
   * Colours
   * Typography
 
@@ -39,6 +39,37 @@
 * Deployment
 
 * Acknowledgements
+
+# Introduction
+The product (Embrace Support Group website) is for a fictional support group where end users are parents with problem teenage children or parents with simply teenage children. The site provides information on the support group's purpose, ethos, practices, organizers, visual aids and contact details and extra professional assistance. It also informs users about their privacy and data protection rights. 
+It is a non-profit business, participation is free. The site has been designed for desktop, laptop, tablet and mobile devices.
+
+
+# UX
+
+* Owner goals
+
+The owners of the product are the organizers who run the meetings.
+
+
+The site owners use online presence to attract participants to the support group meetings.
+
+*User goals
+Potential users would like to achieve the following:
+
+* Find a parent support group
+* Contact a parent support group
+* Contact a child psychologist
+* Get information on support group's practices
+* Get information on support group's ethos
+* Get information on responses
+* Get information on leaders 
+* Get visual aids
+* Get information on privacy and data protection rights
+* Be able to view the site on devices with different screen sizes and reolution 
+
+
+# Layout
 
 ## Home
 The Homepage introduces the purpose and the main activity of the group, the vision and responses.
@@ -80,7 +111,7 @@ The About page consists of the following sections:
 
 
 ## Sessions
-The Sessions page intoduces the sessions in more detail. It provides a video, discussed topic and activities outside the sessions.
+The Sessions page intoduces the sessions in more detail. It provides a video of an actual session, frequently discussed topics and activities outside the sessions.
 
 The Sessions page consists of the following sections:
 
@@ -101,7 +132,7 @@ The Sessions page consists of the following sections:
 
 ## Gallery 
 
-The gallery page consists of a heading and slideshow image gallery. 
+The gallery page consists of a heading and slideshow image gallery. It provides visual aid.
 
 [Gallery page slideshow gallery](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Gallery_slideshow_tablet_view.JPG)
 
@@ -131,69 +162,54 @@ The contact page consist of the following sections:
 
 This page opens from the Confidentiality link in the footer. It is a mere confidentiality statement. It is styled as the body of the other pages, however, it is meant to be a document and therefore has no header or footer. 
 
+[Confidentiality statement](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Confidentiality_statement.JPG)
+
+
+# Features
+
+### Header
+
+
+The header contains a logo of the Support group, links to the Home, About, Sessions, Gallery and Contact pages.
+
+The header will allow the user to see all available pages at a glance and navigate between pages without having to go back to the previous pages. The header is present on all pages linked in it, except for the Confidentiality page, which is a document, not an actual webpage.
+
+
+### Footer 
+
+The footer contains a link to the Condidentiality page (statement), a link to contact a child psychologist and links to Facebook, Instagram, Twitter and Youtube pages. For visual enhancement, it displays icons over the link text. For a simpler solution, the Follow us on social media text is not a link, user needs to click on the icons. Hovering over them guide the user. On the Confidentiality and Contact a child psychologist links the actual text is clickable, the icons are unresponsive. Users can use the Contact a child psychologist link as a shortcut to get to the contact page, were his image, profile and practice's address is displayed. 
 
 
 
+### Page main image
+
+
+The main image is present on the Home, About and Sessions pages. It's function is to grab the user's attention and to enhance the groups' ethos and practices. The text overlay provides information about activity and ethos and another overlay displays an inspirational quote.
+
+### Page information section
+
+
+On the Home, About and Sessions pages, the information section is divided into a text and image area. The images enhance the content. Titles are displayed as headings.
+
+### Testimonials section
+
+The testimonials feature responses from existing users. For a more real experience, photos are displayed.
+
+### Group leaders section
+
+This section features the group leaders with a short description and a photograph.
+For a more real experience, photos are displayed.
+
+### Slidehow image gallery
+
+This feature is on the Gallery page. It displays one image at the time, with side buttons. The images are the size of the main images on the Home, About and Gallery pages in order to stay in keeping with the site's general layout. A slow zoomout enhances the images, and there is a friendly message to the user in the bottom right corner in a text overlay. There is also a heading on the page, which gives the main message of the page.
+
+
+### Our contact details
+
+This feature provides email-address, phone number, web address, venue address.
 
 
 
-The product (Embrace Support Group website) is for a fictional support group where end users are parents with problem teenage children or parents with simply teenage children. The owners of the product are the organizers who run the meetings.
-
-The goal of the website for users and potentional users is to provides visibility for an activity/group that addresses real-life issues and can make life easier for the user.
-
-The site owners would like users to view the site so that users attend the support group meetings.
-
-The goal of this website for users and potential users is to:
-
-provide information on support sessions
-provide information on people running the sessions
-provide contact details for support group
-provide location for support group
-The site owner's goal of this website is
-
-to attract more people for their support group
-to create an online presence and brand awareness
-User stories
-Users would like to carry out the following activities:
-
-Users would like to land on a page that provides the information they are looking for.
-Users would like to see if it’s worth staying on the site.
-User would like to see more detailed information on the support group.
-Users would like to see view all available pages in one glance.
-Users would like to navigate between pages.
-Users would like to scroll down on pages.
-Users would like to see images of the support group’s activity.
-Users would like to get in contact with the group.
-Users would like to follow the group via social media.
-Users may want a shortcut to a useful feature.
-Users want to view the site on mobile or tablet devices.
-Features
-Nav bar
-The nav contains a logo of the Support group, links to the Home, About, Sessions, Gallery and Contact pages.
-
-The nav bar feature will allow the user to see all available pages at a glance and navigate between pages without having to go back to the previous pages.
-
-The landing page image
-The landing page includes the photograph of a support group with a text overlay that allows the user to see the support groups motto.
-
-This is the introduction to the Embrace Support Group with an eye-catching image to awake the user’s interest.
-
-The landing page information section The landing page information section consists of Intro, Our Vision and Testimonials sections. User will see the value in staying on the page as these sections provide enough information to confirm for user that the help/support they are looking for is available on the site.
-
-The About page The About page provides additional information on the support group in three sections, namely History, Activity and Meetups. User will find value in this as this page will provide more in-depth and practical information about the group’s activity in general.
-
-The Sessions page The Sessions page provides additional information on support group in three sections, namely How It Happens, Frequently Discussed and Other Activities. User will find value in this as this page will provide more in-depth and practical information about the actual meetings.
-
-The Gallery page The gallery page will provide images of the meetups. The user will find value in this as it shows the different activities and scenarios that take place in the meetups.
-
-The Contact page The contact page allows the user to sign up with their first name, last name and email address. User can select a preferred day for the session. The street map shows the location. This way the user can contact the group.
-
-Footer The footer contains links to social media websites. The user finds value in being able to follow the group on social media platforms.
-
-Contact a child psychologist icon This icon provides a shortcut the contact details of a behavioural psychologist. User can find value in this as they do not have to look for this feature by going through all 5 pages of the website.
-
-Scroll bar The scroll bar will enable the user to scroll down on pages where page information overflows. The user will see the value in this as all information on the page is accessible and the visual and information flow is continuous.
-
-Responsive design Responsive design allows the user want to view the page on different devices, desktop, laptop, tablet and mobile phone. The user can find value in this as all platforms will provide the same quality visual experience.
 
 Link to wireframes: https://github.com/renatalantos/Embrace-support-group/blob/master/Milestone_Project_1_A4.pdf
