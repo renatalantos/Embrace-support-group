@@ -86,7 +86,8 @@ The Sessions page consists of the following sections:
 
 * Other Activities
 
-[Sessions main image]()
+[Sessions page main image]()
+
 [How It Happens Section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Actual_session_mobile_view.JPG)
 
 [Frequently Discussed - Teen and Parent Concerns Section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Concerns_desktop_view.JPG)
@@ -97,7 +98,7 @@ The Sessions page consists of the following sections:
 
 The gallery page consists of a heading and slideshow image gallery. 
 
-[](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Gallery_slideshow_tablet_view.JPG)
+[Gallery page slideshow gallery](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Gallery_slideshow_tablet_view.JPG)
 
 ## Contact
 
@@ -111,10 +112,10 @@ The contact page consist of the following sections:
 
 * Map to the venue
 
-[](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Contacts_desktop_view.JPG)
-[](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Contacts_desktop_view.JPG)
-[]()
-[](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Map_mobile_view.JPG)
+[Contact details](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Contacts_desktop_view.JPG)
+[Contact a child psychologist](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Contacts_desktop_view.JPG)
+[Signup for newsletter form]()
+[Map to the venue](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Map_mobile_view.JPG)
 
 
 
