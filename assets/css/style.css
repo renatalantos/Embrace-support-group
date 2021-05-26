@@ -28,7 +28,7 @@ header,
 footer {
     width: 100%;
     min-height: 140px;
-   
+
     background-color: #2F4858;
     /* background-color: #2E0079;*/
     overflow: hidden;
@@ -61,7 +61,7 @@ header {
 
 #menu {
     float: right;
-    
+
 
 
 
@@ -72,7 +72,7 @@ header {
     padding-right: 30px;
     list-style-type: none;
     display: inline;
-    
+
 }
 
 #menu a,
@@ -545,7 +545,6 @@ footer i {
 .w3-display-container {
     padding: 20px;
 
-
 }
 
 #slide-text {
@@ -889,20 +888,20 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
 @media screen and (min-width:280px) and (max-width:767px) {
 
-header {
+    header {
         position: relative;
-    
-        
+
+
 
     }
 
-   #menu li a {
+    #menu li a {
         float: none;
         width: 100%;
         margin-left: 20px;
-        
+
     }
-    
+
 
 
 
@@ -1102,23 +1101,23 @@ header {
 
     }
 
-    
-/*For landscape view on large desktops*/
-@media screen and (min-width: 1500px) {
-
-    #cover-text {
-
-
-        right: 120px;
-
-    }
-
-    #hero-summary {
-
-        margin-left: 120px;
-
-        top: 40px;
-
-    }
-
 }
+    /*For landscape view on large desktops*/
+    @media screen and (min-width: 1500px) {
+
+        #cover-text {
+
+
+            right: 120px;
+
+        }
+
+        #hero-summary {
+
+            margin-left: 120px;
+
+            top: 40px;
+
+        }
+
+    }
