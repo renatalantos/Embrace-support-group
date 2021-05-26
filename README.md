@@ -5,20 +5,22 @@
 
 * Introduction
 
-..* Home
-..* About
-..* Sessions
-..* Gallery
-..* Contact
+  * Home
+  * About
+  * Sessions
+  * Gallery
+  * Contact
 
 * UX
-..* Business Goals
-..* Owner Goals
-..* User Goals
+  * Business Goals
+  * Owner Goals
+  * User Goals
 
 * Features
-  * Feautures used
+  * Features used
   * Features to implement
+  
+  
 
 * Structure
   * Wireframes
@@ -44,6 +46,8 @@ The home page consists of the following sections:
 * Vision
 
 * Testimonials
+
+[I'm a relative reference to a repository file](../Embrace-support-group/documents/Home_page_main_image.jpg)
 
 
 
