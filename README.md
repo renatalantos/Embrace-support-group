@@ -1,48 +1,49 @@
-# H6 Milestone Project 1 - Embrace Support Group
+# Milestone Project 1 - Embrace Support Group#
 ![image](https://user-images.githubusercontent.com/82510814/119694410-1a685c80-be45-11eb-9f54-7d8e9e37d6df.png)
 
-## H2 Table of Contents
-*Introduction
+## Table of Contents
 
-..*Home
-..*About
-..*Sessions
-..*Gallery
-..*Contact
+* Introduction
 
-*UX
-..*Business Goals
-..*Owner Goals
-..*User Goals
+..* Home
+..* About
+..* Sessions
+..* Gallery
+..* Contact
 
-*Features
-..*Feautures used
-..*Features to implement
+* UX
+..* Business Goals
+..* Owner Goals
+..* User Goals
 
-*Structure
-..*Wireframes
-..*Colours
-..*Typography
+* Features
+..* Feautures used
+..* Features to implement
 
-*Technologies
+* Structure
+..* Wireframes
+..* Colours
+..* Typography
 
-*Testing
+* Technologies
 
-*Bugs, errors and warnings
+* Testing
+
+* Bugs, errors and warnings
 
 *Deployment
 
-*Acknowledgements
+* Acknowledgements
 
-## H2 Home
+## Home
 
 The home page consists of the following sections:
 
-..*Welcome
+..* Welcome
 
-..*Vision
+..* Vision
 
-..*Testimonials
+..* Testimonials
 
 
 
