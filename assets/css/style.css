@@ -11,16 +11,10 @@ font-family: 'Rubik', sans-serif;*/
 }
 
 body {
-
+    background-color: rgba(223, 237, 244, .8);
     font-family: 'Lora', serif;
     font-weight: 600;
     color: #1B1A1E;
-
-
-    /* background-color: #CFC4F41; */
-    background-color: rgba(223, 237, 244, .8)
-        /* or should this go int #hero-text-area?*/
-
 }
 
 /*header, footer and logo */
@@ -29,9 +23,7 @@ footer {
     width: 100%;
     min-height: 140px;
     background-color: #2F4858;
-    /* background-color: #2E0079;*/
     overflow: hidden;
-
 }
 
 /*to keep header in fixed position and to get it to appear in front*/
@@ -52,15 +44,12 @@ header {
     float: left;
     border-radius: 5px;
     margin: 20px 30px;
-
-
 }
 
 /*header navigation links and footer links */
 
 #menu {
     float: right;
-
 }
 
 #menu li {
@@ -68,7 +57,6 @@ header {
     padding-right: 30px;
     list-style-type: none;
     display: inline;
-
 }
 
 #menu a,
@@ -106,7 +94,6 @@ footer a:hover,
 footer a:active,
 .submit:active,
 #conf-button a:active {
-
     color: rgb(199, 99, 99);
     text-decoration: underline;
 }
@@ -131,7 +118,6 @@ footer a:active,
 #hero-image-home,
 #hero-image-about,
 #hero-image-sessions {
-
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -289,11 +275,8 @@ footer a:active,
 
 #hero-text-area {
     height: 100%;
-    /* height: auto;*/
     width: 100%;
     overflow: hidden;
-    /*  position: relative;*/
-    /*  text-align: center; */
 }
 
 #hero-text-area h2,
@@ -309,25 +292,18 @@ footer a:active,
 
 /*Style right and left divs of the text area and their elements*/
 
-
-
-
 .to-left {
     float: left;
     width: 50%;
-    /* background-color: green;*/
     height: 500px;
     text-align: center;
-    /*   position: relative;*/
 
 }
 
 .to-right {
     float: right;
     width: 50%;
-    /*  background-color: blue; */
     height: 500px;
-    /* position: relative;*/
     display: table;
     text-align: center;
 }
@@ -336,10 +312,8 @@ footer a:active,
 
 .to-right p {
     page-break-inside: auto;
-
     text-align: justify;
     padding: 0 20px;
-
 }
 
 
@@ -350,7 +324,6 @@ footer a:active,
     border: .5px solid rgba(139, 133, 136, .2);
     background-color: #F4F6F4;
     box-sizing: border-box;
-
 }
 
 
@@ -360,11 +333,9 @@ footer a:active,
 .right-text-container {
     background-repeat: no-repeat;
     height: 350px;
-    /*change to fixed value?*/
     width: 500px;
     margin-top: 75px;
     border: 0px;
-
 }
 
 
@@ -381,7 +352,6 @@ footer a:active,
     border: .5px solid rgba(139, 133, 136, .2);
     background-color: #F4F6F4;
     height: 250px;
-
     list-style-type: none;
     box-sizing: border-box;
     display: inline;
@@ -397,11 +367,9 @@ footer a:active,
 }
 
 .founder {
-
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     padding-top: 10px;
-
 }
 
 .strong {
@@ -457,7 +425,6 @@ footer a:active,
     width: 33%;
     margin: 0 auto;
     padding-top: 54px;
-
 }
 
 
@@ -466,7 +433,6 @@ footer a:active,
 
 #footer-item-right li {
     display: inline;
-
 }
 
 
@@ -502,7 +468,6 @@ footer i {
     height: 200px;
     width: 200px;
     padding-top: 20px;
-
 }
 
 /*Style the concerns unordered list*/
@@ -516,7 +481,6 @@ footer i {
 #concerns li::before {
     content: '\f059';
     font-family: 'FontAwesome';
-
     float: left;
     margin-left: -1.5em;
     color: rgb(30, 107, 117);
@@ -535,7 +499,6 @@ footer i {
     animation-name: slideshow-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
 }
 
 /*level of zoom for slideshow images*/
@@ -560,7 +523,6 @@ footer i {
 
 .w3-display-container {
     padding: 20px;
-
 }
 
 #slide-text {
@@ -576,8 +538,6 @@ footer i {
     border-radius: 5%;
     font-family: 'Open Sans', sans-serif;
     font-weight: initial;
-
-
 }
 
 /* style divs for contact page and their elements*/
@@ -589,12 +549,9 @@ footer i {
 .to-right-large {
     width: 50%;
     height: 1200px;
-
     float: right;
-    /*    background-color: yellow;*/
     text-align: center;
     display: block;
-
 }
 
 
@@ -603,26 +560,22 @@ footer i {
     height: 600px;
     float: left;
     font-family: 'Lora', serif;
-    ;
-    /* background-color: red;*/
     text-align: justify;
-
 }
 
 
-
+/*Style map on contact page*/
 
 .map {
     height: 80%;
     width: 80%;
     border: 10px solid rgba(139, 133, 136, .2);
-
 }
 
+/*Style textbox and radio button elements on contact page*/
 .contact-form {
     border: .5px solid rgba(141, 139, 140, 0.2);
     background-color: rgb(218, 214, 214);
-
 }
 
 .to-left-small p,
@@ -634,8 +587,6 @@ footer i {
     font-family: 'Lora', serif;
     font-weight: 600;
     color: #1B1A1E;
-
-
 }
 
 
@@ -655,10 +606,7 @@ footer i {
 
 .text-input input,
 .email-input input {
-
     border: 5px solid rgba(29, 23, 26, 0.2);
-
-
 }
 
 
@@ -696,9 +644,9 @@ footer i {
     color: rgb(227, 227, 243);
     margin: 20px 0;
     font-family: 'Rubik', sans-serif;
-
 }
 
+/*Style elements on confidentiality page*/
 #conf-statement {
     text-align: justify;
     padding: 50px;
@@ -708,7 +656,6 @@ footer i {
     text-align: center;
     height: 35px;
     width: auto;
-
 }
 
 #conf-button a {
@@ -732,7 +679,7 @@ footer i {
 
 
 
-/* Add media queries for responsiveness. This will center both the text and the image inside the #container*/
+/* Add media queries for responsiveness. Media queries for large desktops, tablet devices and mobile phones*/
 
 
 /*For Mobile Phones @media (max-width:480px){}
@@ -740,15 +687,24 @@ For Tablets @media (max-width:960px){}
 For Laptops/Desktop @media (min-width:1025px){}
 For Hi-Res Laptops @media (max-width:1280px){}*/
 
+/*For landscape view on large desktops*/
+@media screen and (min-width: 1500px) {
 
+    #cover-text {
+        right: 120px;
+    }
+
+    #hero-summary {
+        margin-left: 120px;
+        top: 40px;
+    }
+}
 
 /*For both portrait and landscape view on tablet devices*/
 @media screen and (min-width: 768px) and (max-width:1024px) {
 
     header {
         position: relative;
-
-
     }
 
     #menu li {
@@ -757,7 +713,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         margin-left: 20px;
     }
 
-    /* test if this works*/
+
     #menu li a,
     footer a,
     .social-icon {
@@ -768,21 +724,16 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     #hero-outer,
     #hero-text-area {
         margin-top: 0;
-    }
-
-    #cover-text {
-        visibility: hidden;
 
     }
+
 
     #testimonial {
         text-align: center;
     }
 
-    /* #testimonial li,*/
-    /*  #menu li,*/
+
     .to-left,
-    /*  .to-right,*/
     #testimonial img {
         margin: auto;
         float: none;
@@ -793,7 +744,6 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     }
 
     .to-right {
-
         width: 100%;
         height: 100%;
     }
@@ -818,24 +768,18 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         margin: auto;
         float: none;
         display: block;
-        height: 100%;
-        width: 100%;
+        height: auto;
+        width: auto;
         padding: 20px 0;
-
     }
 
     .to-left img {
-
         float: none;
         display: block;
-
         width: auto;
         width: auto;
         padding: 20px 0;
-
         margin: 0 auto;
-
-
     }
 
     /*  #footer-item-left,
@@ -849,10 +793,10 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         height: auto;
         margin: 10px;*/
 
-}
 
-/*Leave out for tablet view?*/
-/* #team-founders li {
+
+    /*Leave out for tablet view?*/
+    /* #team-founders li {
 
         margin: auto;
         float: none;
@@ -862,47 +806,33 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         height: auto;
     }*/
 
-#cover-text {
-    visibility: hidden;
-}
+    .to-left-small {
+        margin: auto;
+        float: none;
+        display: block;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
 
-#hero-summary {
-    width: 100%;
+    .to-right-large {
+        margin: auto;
+        float: none;
+        display: block;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
 
-    margin: 0;
-
-}
-
-
-
-.to-left-small {
-    margin: auto;
-    float: none;
-    display: block;
-    text-align: center;
-    width: auto;
-    height: auto;
-}
-
-.to-right-large {
-    margin: auto;
-    float: none;
-    display: block;
-    text-align: center;
-    width: auto;
-    height: auto;
-}
-
-#form {
-    padding: 0;
-}
+    #form {
+        padding: 0;
+    }
 
 
 
-.to-left-small {
-    text-align: justify;
-
-}
+    .to-left-small {
+        text-align: justify;
+    }
 
 }
 
@@ -915,16 +845,12 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
     header {
         position: relative;
-
-
-
     }
 
     #menu {
         float: none;
         width: 100%;
         margin-left: 40px;
-
     }
 
     #menu li a,
@@ -943,17 +869,14 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
     #cover-text {
         visibility: hidden;
-
     }
 
     #testimonial {
         text-align: center;
     }
 
-    /* #testimonial li,*/
-    /*  #menu li,*/
+
     .to-left,
-    /*  .to-right,*/
     #testimonial img {
         margin: auto;
         float: none;
@@ -964,7 +887,6 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     }
 
     .to-right {
-
         width: 100%;
         height: 100%;
     }
@@ -990,19 +912,15 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         display: block;
         height: auto;
         width: auto;
-
     }
 
     .to-left img {
-
         float: none;
         display: block;
         text-align: center;
         width: 100%;
         height: 100%;
         margin: 0;
-
-
     }
 
     #footer-item-left,
@@ -1015,12 +933,9 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         width: auto;
         height: auto;
         margin: 10px;
-
     }
 
-
     #team-founders li {
-
         margin: auto;
         float: none;
         display: block;
@@ -1035,12 +950,8 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
     #hero-summary {
         width: 100%;
-
         margin: 0;
-
     }
-
-
 
     .to-left-small {
         margin: auto;
@@ -1064,20 +975,11 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         padding: 0;
     }
 
-
-
     .to-left-small {
         text-align: justify;
-
     }
 
-
-
-
-
-
     #team-founders li {
-
         margin: auto;
         float: none;
         display: block;
@@ -1086,18 +988,10 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         height: auto;
     }
 
-    #cover-text {
-        visibility: hidden;
-    }
-
     #hero-summary {
         width: 100%;
-
         margin: 0;
-
     }
-
-
 
     .to-left-small {
         margin: auto;
@@ -1121,31 +1015,8 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         padding: 0;
     }
 
-
-
     .to-left-small {
         text-align: justify;
-
     }
-
 }
 
-/*For landscape view on large desktops*/
-@media screen and (min-width: 1500px) {
-
-    #cover-text {
-
-
-        right: 120px;
-
-    }
-
-    #hero-summary {
-
-        margin-left: 120px;
-
-        top: 40px;
-
-    }
-
-}
