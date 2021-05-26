@@ -52,9 +52,11 @@ The home page consists of the following sections:
 [Home page main image](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/Home_page_main_image.JPG)
 
 
-[Welcome section]()
+[Welcome section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Welcome_section_mobile_view.JPG)
 
-[Visions section]()
+[Visions section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Vision_section_mobile_view.JPG)
+
+[Testimonials section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Testimonials_section_tablet_view.JPG)
 
 ## About 
 
@@ -69,9 +71,10 @@ The About page consists of the following sections:
 
 [Our group leaders section]()
 
-[Group Therapy Benefits Section]()
+[Group Therapy Benefits Section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Benefits_tablet_view.JPG)
 
-[Meetups section]()
+[Meetups section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Meetups_tablet_view.JPG)
+
 
 ## Sessions
 
@@ -83,17 +86,18 @@ The Sessions page consists of the following sections:
 
 * Other Activities
 
-[How It Happens Section]()
+[Sessions main image]()
+[How It Happens Section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Actual_session_mobile_view.JPG)
 
-[Frequently Discussed - Teen and Parent Concerns Section]()
+[Frequently Discussed - Teen and Parent Concerns Section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Concerns_desktop_view.JPG)
 
-[Other Activities Section]()
+[Other Activities Section](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/activites_mobile_view.JPG)
 
 ## Gallery 
 
 The gallery page consists of a heading and slideshow image gallery. 
 
-[]()
+[](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Gallery_slideshow_tablet_view.JPG)
 
 ## Contact
 
@@ -107,10 +111,10 @@ The contact page consist of the following sections:
 
 * Map to the venue
 
+[](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Contacts_desktop_view.JPG)
+[](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Contacts_desktop_view.JPG)
 []()
-[]()
-[]()
-[]()
+[](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Map_mobile_view.JPG)
 
 
 
