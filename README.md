@@ -17,13 +17,13 @@
 ..* User Goals
 
 * Features
-..* Feautures used
-..* Features to implement
+  * Feautures used
+  * Features to implement
 
 * Structure
-..* Wireframes
-..* Colours
-..* Typography
+  * Wireframes
+  * Colours
+  * Typography
 
 * Technologies
 
@@ -31,7 +31,7 @@
 
 * Bugs, errors and warnings
 
-*Deployment
+* Deployment
 
 * Acknowledgements
 
@@ -39,11 +39,11 @@
 
 The home page consists of the following sections:
 
-..* Welcome
+* Welcome
 
-..* Vision
+* Vision
 
-..* Testimonials
+* Testimonials
 
 
 
