@@ -33,6 +33,8 @@
 
 * Bugs, errors and warnings
 
+* Issues
+
 * Deployment
 
 * Acknowledgements
@@ -47,8 +49,68 @@ The home page consists of the following sections:
 
 * Testimonials
 
-[I'm a relative reference to a repository file](../Embrace-support-group/documents/Home_page_main_image.jpg)
+[Home page main image](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/Home_page_main_image.JPG)
 
+
+[Welcome section]()
+
+[Visions section]()
+
+## About 
+
+The About page consists of the following sections:
+
+* Our Group Leaders
+
+* Group Therapy Benefits 
+
+* Meetups 
+[About page main image]()
+
+[Our group leaders section]()
+
+[Group Therapy Benefits Section]()
+
+[Meetups section]()
+
+## Sessions
+
+The Sessions page consists of the following sections:
+
+* How It Happens
+
+* Frequently Discussed - Teen and Parent Concerns
+
+* Other Activities
+
+[How It Happens Section]()
+
+[Frequently Discussed - Teen and Parent Concerns Section]()
+
+[Other Activities Section]()
+
+## Gallery 
+
+The gallery page consists of a heading and slideshow image gallery. 
+
+[]()
+
+## Contact
+
+The contact page consist of the following sections:
+
+* Our contact details
+
+* Contact a child psychologist
+
+* Signup for newsletter form
+
+* Map to the venue
+
+[]()
+[]()
+[]()
+[]()
 
 
 
