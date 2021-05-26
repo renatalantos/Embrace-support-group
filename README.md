@@ -177,7 +177,7 @@ The header will allow the user to see all available pages at a glance and naviga
 
 ### Footer 
 
-The footer contains a link to the Condidentiality page (statement), a link to contact a child psychologist and links to Facebook, Instagram, Twitter and Youtube pages. For visual enhancement, it displays icons over the link text. For a simpler solution, the Follow us on social media text is not a link, user needs to click on the icons. Hovering over them guide the user. On the Confidentiality and Contact a child psychologist links the actual text is clickable, the icons are unresponsive. Users can use the Contact a child psychologist link as a shortcut to get to the contact page, were his image, profile and practice's address is displayed. 
+The footer contains a link to the Condidentiality page (statement), a link to contact a child psychologist and links to Facebook, Instagram, Twitter and Youtube pages. For visual enhancement, it displays icons over the link text. For a simpler solution, the <em>Follow us on social media</em> text is not a link, user needs to click on the icons. Hovering over them guide the user. On the <em>Confidentiality</em> and <em>Contact a child psychologist</em> links the actual text is clickable, the icons are unresponsive. Users can use the <em>Contact a child psychologist</em> link as a shortcut to get to the contact page, were his image, profile and practice's address are displayed. 
 
 
 
@@ -193,21 +193,42 @@ On the Home, About and Sessions pages, the information section is divided into a
 
 ### Testimonials section
 
-The testimonials feature responses from existing users. For a more real experience, photos are displayed.
+The testimonials on the Home page feature responses from existing users. For a more real experience, photos are displayed.
 
 ### Group leaders section
 
-This section features the group leaders with a short description and a photograph.
+This section on the About page features the group leaders with a short description and a photograph.
 For a more real experience, photos are displayed.
+
+### Video 
+
+The video on the Sessions page features an actual session.
 
 ### Slidehow image gallery
 
 This feature is on the Gallery page. It displays one image at the time, with side buttons. The images are the size of the main images on the Home, About and Gallery pages in order to stay in keeping with the site's general layout. A slow zoomout enhances the images, and there is a friendly message to the user in the bottom right corner in a text overlay. There is also a heading on the page, which gives the main message of the page.
 
 
-### Our contact details
+### Contact details section
 
-This feature provides email-address, phone number, web address, venue address.
+This section on the Contact page provides email-address, phone number, web address, venue address.
+
+### Child psychologist section
+
+On the contact page, a child psychologist's image, profile and practice's address are displayed. Users can also get here by clicking on the Contact a child psychologist link in the footer.
+
+### Contact form
+
+This section on the Contact page features a contact form where users can input their name and email address and then submit those to the site owners. 
+
+### Radio buttons
+
+On the Contact page, the user can let the site owners know whether he/she wants to participate in the sessions soon. Radio buttons are technically part of the contact form.
+
+### Map
+
+On the Contact page, the embedded Google map will help the user find the venue.
+
 
 
 
