@@ -28,7 +28,6 @@ header,
 footer {
     width: 100%;
     min-height: 140px;
-
     background-color: #2F4858;
     /* background-color: #2E0079;*/
     overflow: hidden;
@@ -440,6 +439,17 @@ footer a:active,
     width: 33%;
     margin: 0 auto;
     padding-top: 54px;
+  /*  display: inline-block;*/
+    /* to see if this centers copyright*/
+
+}
+
+#copy {
+    width: 33%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
 }
 
 #footer-item-right li {
@@ -713,6 +723,7 @@ footer i {
 .underline {
     text-decoration: underline;
 }
+
 
 
 
@@ -1033,9 +1044,9 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         padding: 0;
     }
 
-    footer h6 {
+  /*  footer h6 {
         visibility: hidden;
-    }
+    }*/
 
     .to-left-small {
         text-align: justify;
@@ -1092,9 +1103,9 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         padding: 0;
     }
 
-    footer h6 {
+  /*  footer h6 {
         visibility: hidden;
-    }
+    }*/
 
     .to-left-small {
         text-align: justify;
@@ -1102,22 +1113,23 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     }
 
 }
-    /*For landscape view on large desktops*/
-    @media screen and (min-width: 1500px) {
 
-        #cover-text {
+/*For landscape view on large desktops*/
+@media screen and (min-width: 1500px) {
+
+    #cover-text {
 
 
-            right: 120px;
-
-        }
-
-        #hero-summary {
-
-            margin-left: 120px;
-
-            top: 40px;
-
-        }
+        right: 120px;
 
     }
+
+    #hero-summary {
+
+        margin-left: 120px;
+
+        top: 40px;
+
+    }
+
+}
