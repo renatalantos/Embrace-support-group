@@ -1,6 +1,55 @@
-Milestone Project 1 - Embrace Support Group
+# H6 Milestone Project 1 - Embrace Support Group
+![image](https://user-images.githubusercontent.com/82510814/119694410-1a685c80-be45-11eb-9f54-7d8e9e37d6df.png)
 
-UX
+## H2 Table of Contents
+*Introduction
+
+..*Home
+..*About
+..*Sessions
+..*Gallery
+..*Contact
+
+*UX
+..*Business Goals
+..*Owner Goals
+..*User Goals
+
+*Features
+..*Feautures used
+..*Features to implement
+
+*Structure
+..*Wireframes
+..*Colours
+..*Typography
+
+*Technologies
+
+*Testing
+
+*Bugs, errors and warnings
+
+*Deployment
+
+*Acknowledgements
+
+## H2 Home
+
+The home page consists of the following sections:
+
+..*Welcome
+
+..*Vision
+
+..*Testimonials
+
+
+
+
+
+
+
 
 The product (Embrace Support Group website) is for a fictional support group where end users are parents with problem teenage children or parents with simply teenage children. The owners of the product are the organizers who run the meetings.
 
