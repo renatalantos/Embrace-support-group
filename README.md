@@ -365,12 +365,14 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
 
 * Hamburger menu
 
-I tried to insert a hamburger menu for mobile view using Javascript following the [https://www.w3schools.com/howto/howto_js_mobile_navbar.asp](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) link, however, the opened link tabs stayed open after being clicked on, and occupied too much space on the screen, so I reverted to using the header links. I resized the font size and gave the header an auto height.
+I tried to insert a hamburger menu for mobile view using Javascript following the [https://www.w3schools.com/howto/howto_js_mobile_navbar.asp](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) link, however, the opened link tabs stayed open after being clicked on, and occupied too much space on the screen, so I reverted to using the header links. I resized the font size and gave the header an auto height, which makes it appear narrower.
 
 * Footer link Follow us on social media displayed as with h3 letter type without being surrounded by a tags on the Sessions page. I needed to insert extra <a></a> tags into the <h3></h3> tags here so that they are displayed consistently.
 
 
 * Extra space between elements Contact child psychologist link and copyright statement on About and Sessions pages due to probably extra padding on Follow us on social media link. Even if this link was surrounded by <a> tags, the problem persisted. Adding classes to this element didn't resolve the issue.
+
+[]()
 
 * Radio buttons allow to use two options at the same time. 
 
