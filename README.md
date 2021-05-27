@@ -238,11 +238,12 @@ This page opens from the footer Confidentiality link. It features a padlock icon
 [Desktop View](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/wireframes/Milestone_Project_1_Wireframes%20for%20desktop%20view.pdf)
 
 #### Discrepancies with original ideas
-#### In destop view
+
 
 *  Overall 
 
-Overall I kept to the basic layout described in the wireframes. 
+Overall I kept to the basic layout described in the wireframes. The main discrepancy  is that I didn't implement a hamburger menu in mobile
+view as planned. Also, in tablet and mobile view, the copyright message is not displayed. See Issues for explanation.
 
 * On individual pages
   * Home page
@@ -274,7 +275,7 @@ Overall I kept to the basic layout described in the wireframes.
 
     The radio button question has been changed to asing the user whether they would want to join soon. The original question would have been answered by the user in the process of contacting the group anyway.
 
-    *  Confidentiality page - was meant to be the way it is. 
+    *  Confidentiality page - was meant to be the way it is in the final version. 
 
 
 
@@ -284,7 +285,6 @@ Overall I kept to the basic layout described in the wireframes.
 
 
 
-The main discrepancy  is that I didn't implement a hamburger menu in mobile
-view as planned. See Issues for explanation. 
+
 
 
