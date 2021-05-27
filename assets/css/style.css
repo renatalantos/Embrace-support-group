@@ -21,7 +21,7 @@ body {
 header,
 footer {
     width: 100%;
-    min-height: 140px;
+    min-height: 100px;
     background-color: #2F4858;
     overflow: hidden;
 }
@@ -31,19 +31,21 @@ header {
     position: fixed;
     z-index: 1;
     top: 0;
-    line-height: 140px;
+    line-height: 100px;
 }
 
 
 
 #logo {
-    background-image: url('../images/embrace_logo.png');
+    background-image: url('../images/embrace_logo_60px.png');
     background-repeat: no-repeat;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     float: left;
     border-radius: 5px;
-    margin: 20px 30px;
+    margin: 20px;
+    z-index: 5;
+
 }
 
 /*header navigation links and footer links */
@@ -135,7 +137,7 @@ footer a:active,
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
 
@@ -150,7 +152,7 @@ footer a:active,
 }
 
 #hero-image-home {
-    background-image: url('../images/parents_support_group.jpg');
+    background-image: url('../images/parent_support_group3.jpg');
 }
 
 #hero-image-about {
@@ -567,7 +569,7 @@ footer i {
 /* style divs for contact page and their elements*/
 
 .push-down-hero-text-area {
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
 .to-right-large {
@@ -721,6 +723,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 /*For landscape view on large desktops*/
 @media screen and (min-width: 1500px) {
 
+    header {position: fixed;}
     #cover-text {
         right: 120px;
     }
@@ -729,6 +732,9 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         margin-left: 120px;
         top: 40px;
     }
+
+    
+
 }
 
 /*For both portrait and landscape view on tablet devices*/
@@ -736,6 +742,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
     header {
         position: relative;
+        margin-bottom:0;
     }
 
     #menu li {
@@ -744,6 +751,30 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         margin-left: 20px;
     }
 
+#hero-summary h1 {
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #852727;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+
+}
+
+#hero-summary {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+    top: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, .7);
+}
+    .push-up-hero-outer {margin-top:0;}
 
     #menu li a,
     footer a,
@@ -752,7 +783,8 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     }
 
 
-    footer #hero-outer,
+    footer,
+    #hero-outer,
     #hero-text-area {
         margin-top: 0;
 
@@ -869,24 +901,47 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
 
 
-/*For both portrait and landscape view on mobile phones*/
+/*For both portrait and landscape view on mobile phones with min-width of 321px*/
 
-@media screen and (min-width:280px) and (max-width:767px) {
+@media screen and (min-width:321px) and (max-width:767px) {
 
     header {
         position: relative;
+        min-height: 60px;
+        line-height: 60px;
     }
 
     #menu {
         float: none;
         width: 100%;
-        margin-left: 40px;
+        margin: 0 auto;
+
     }
+
+    #menu li {
+        padding: 0 5px;
+
+    }
+
+
+
+    #logo {
+        background-image: url('../images/embrace_logo_40px.png');
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 30px;
+        float: left;
+        border-radius: 5px;
+        margin: 5px 10px 0 5px;
+
+
+    }
+
 
     #menu li a,
     footer a,
     .social-icon {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     footer h6 {

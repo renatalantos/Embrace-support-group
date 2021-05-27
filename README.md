@@ -371,7 +371,7 @@ I tried to insert a hamburger menu for mobile view using Javascript following th
 * Extra space between elements Contact child psychologist link and copyright statement on About and Sessions pages. On the About page the footer was inside the #hero-text-area section, taking it out fixed the issue. 
 
 
-On the Sessions page an extra margin of 10px was was applied to the h3 footer elements, and extra 10px padding was applied to the footer h6 elements. Styling just the footer h3 elements by stopping them from sharing the same properties as the navbar elements and footer links was half of the solution. In the properties I set both margin and padding to 0. I created an id for the footer h6 and styled this again with no margin or padding.
+* On the Sessions page an extra margin of 10px was was applied to the h3 footer elements, and extra 10px padding was applied to the footer h6 elements. Styling just the footer h3 elements by stopping them from sharing the same properties as the navbar elements and footer links was half of the solution. In the properties I set both margin and padding to 0. I created an id for the footer h6 and styled this again with no margin or padding.
 
 [Gap as intended](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/gap%20between%20contact%20child%20psychologist%20link%20and%20copyright%20as%20intended.JPG)
 [Gap appears larger than intended](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/gap%20appear%20larger%20on%20Sessions%20and%20Gallery%20pages.JPG)
@@ -379,14 +379,14 @@ On the Sessions page an extra margin of 10px was was applied to the h3 footer el
 
 * The above helped me solve another issue where creating an extra div for the copyright statement and placing it after the Follow us on social media text in the html file highlighted the flaws mentioned in the above section. The copyright statement had to be part of the of footer-item-center div, after the Contact a child psychologist link. Therefore, when diaplayed in mobile view, the copyright statement was displayed between links and not at the bottom. Therefore, in tablet and mobile view the copyright needed to hidden in the @media queries. 
 
-[Illogical position of logo in the footer]()
+[Illogical position of copyright statement in the footer in tablet and mobile view](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/footer%20and%20copyright.JPG)
 
 
 
-* Radio buttons allow user to use two options at the same time. 
+* Radio buttons allow user to select two options at the same time. 
 
 This was solved by adding a name to the radio input tags. 
-[Radio button allows to selections at the same time]()
+[Radio button allows to selections at the same time](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Radio%20buttons.JPG)
 
 
 
