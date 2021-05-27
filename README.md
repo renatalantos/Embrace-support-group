@@ -365,7 +365,7 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
 
 * Hamburger menu
 
-I tried to insert a hamburger menu for mobile view using Javascript following the [https://www.w3schools.com/howto/howto_js_mobile_navbar.asp](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) link, however, the opened link tabs stayed open after being clicked on, and occupied too much space on the screen, so I reverted to using the header links. I resized the font size and gave the header an auto height, which makes it appear narrower.
+I tried to insert a hamburger menu for mobile view using Javascript following the [https://www.w3schools.com/howto/howto_js_mobile_navbar.asp](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) link, however, the opened link tabs stayed open after being clicked on, and occupied too much space on the screen, so I reverted to using the header links. However, in mobile view the header took up too much space and nav elements appeared partly under each other. I resized the header in all views. In mobile views I reduced the line height, font size, the logo and all paddings and margins that could be done without. I gave the navbar a width of 90% and the logo 10%. This doesn't apply to devices under the screen width of under 321 px. Here I simply floated the logo to the left and reduced the navbar elements. On larger mobile devices the logo and the nav elements appear on 2 different lines, however the nav items are pretty much centered and the layout has improved a lot. 
 
 
 * Extra space between elements Contact child psychologist link and copyright statement on About and Sessions pages. On the About page the footer was inside the #hero-text-area section, taking it out fixed the issue. 

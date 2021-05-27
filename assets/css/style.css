@@ -401,6 +401,7 @@ footer a:active,
     color: rgb(30, 107, 117);
 }
 
+
 .indent {
     text-indent: 20px;
 }
@@ -826,15 +827,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         padding: 20px
     }
 
-    /*Leave out for tablet view?*/
-    /* #testimonial li {
-        margin: auto;
-        float: left;
-        display: block;
-        width: auto;
-        height: auto;
-        text-align: center;
-    }*/
+    
 
 
 
@@ -856,29 +849,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         margin: 0 auto;
     }
 
-    /*  #footer-item-left,
-    #footer-item-centre,
-    #footer-item-right {
-        margin: auto;
-        float: none;
-        display: block;
-        text-align: center;
-        width: auto;
-        height: auto;
-        margin: 10px;*/
-
-
-
-    /*Leave out for tablet view?*/
-    /* #team-founders li {
-
-        margin: auto;
-        float: none;
-        display: block;
-        text-align: center;
-        width: auto;
-        height: auto;
-    }*/
+    
 
     .to-left-small {
         margin: auto;
@@ -917,8 +888,8 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
     header {
         position: relative;
-        min-height: 60px;
-        line-height: 60px;
+        min-height: 80px;
+        line-height: 80px;
     }
 
     
