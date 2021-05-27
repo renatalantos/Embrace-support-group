@@ -388,6 +388,11 @@ I tried to insert a hamburger menu for mobile view using Javascript following th
 This was solved by adding a name to the radio input tags. 
 [Radio button allows to selections at the same time](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Radio%20buttons.JPG)
 
+* Gap between main Home image and text area
+
+A gap appeared between the main image and the text area in tablet and large desktop view. This was due to the narrower height and width of the image from the rest. I fixed this issue resizing the image for the 2 extra views. However, when tested on my Android Galaxy A51, the gap appeared there (not before). I fixed this by adding an extra 20px of height and line height in mobile view. This fixed the issue.
+
+[Gap between main image and text area]()
 
 
 

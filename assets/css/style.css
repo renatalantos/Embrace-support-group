@@ -338,7 +338,7 @@ footer a:active,
 .to-right p {
     page-break-inside: auto;
     text-align: justify;
-    padding: 0 20px;
+    padding: 0 80px;
 }
 
 
@@ -376,21 +376,26 @@ footer a:active,
     text-align: center;
     border: .5px solid rgba(139, 133, 136, .2);
     background-color: #F4F6F4;
-    height: 250px;
+    height: auto;
     list-style-type: none;
     box-sizing: border-box;
     display: inline;
     float: left;
 }
 
-#testimonial li p,
-#team-founders p {
+#testimonial li p {
     page-break-inside: auto;
-    text-indent: 20px;
     padding: 20px;
     text-align: justify;
+    
 }
 
+
+#team-founders p {
+    page-break-inside: auto;
+    padding: 20px 70px 0 70px;
+    text-align: justify;
+}
 .founder {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -760,29 +765,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         margin-left: 20px;
     }
 
-    /*#hero-summary h1 {
-    font-size: 25px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: #852727;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-
-}
-
-#hero-summary {
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: auto;
-    height: auto;
-    top: 20px;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255, .7);
-}*/
+    
     .push-up-hero-outer {
         margin-top: 0;
     }
@@ -811,6 +794,16 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     #testimonial img {
         margin: auto;
         float: none;
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    
+     #testimonial li {
+        margin: auto;
+        float: left;
         display: block;
         width: auto;
         height: auto;
