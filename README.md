@@ -370,7 +370,9 @@ I tried to insert a hamburger menu for mobile view using Javascript following th
 * Footer link Follow us on social media displayed as with h3 letter type without being surrounded by a tags on the Sessions page. I needed to insert extra <a></a> tags into the <h3></h3> tags here so that they are displayed consistently.
 
 
-* Extra space between elements Contact child psychologist link and copyright statement on About and Sessions pages due to extra padding on Follow us on social media link.
+* Extra space between elements Contact child psychologist link and copyright statement on About and Sessions pages due to probably extra padding on Follow us on social media link. Even if this link was surrounded by <a> tags, the problem persisted. Adding classes to this element didn't resolve the issue.
+
+* Radio buttons allow to use two options at the same time. 
 
 
 
