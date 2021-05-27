@@ -164,80 +164,85 @@ This page opens from the Confidentiality link in the footer. It is a mere confid
 
 # Features
 
-### Header
+## Header
 
 The header contains a logo of the Support group, links to the Home, About, Sessions, Gallery and Contact pages.
 The header will allow the user to see all available pages at a glance and navigate between pages without having to go back to the previous pages. The header is present on all pages linked in it, except for the Confidentiality page, which is a document, not an actual webpage.
 
 
-### Footer 
+## Footer 
 
 The footer contains a link to the Condidentiality page (statement), a link to contact a child psychologist and links to Facebook, Instagram, Twitter and Youtube pages. For visual enhancement, it displays icons over the link text. For a simpler solution, the <em>Follow us on social media</em> text is not a link, user needs to click on the icons. Hovering over them guide the user. On the <em>Confidentiality</em> and <em>Contact a child psychologist</em> links the actual text is clickable, the icons are unresponsive. Users can use the <em>Contact a child psychologist</em> link as a shortcut to get to the contact page, were his image, profile and practice's address are displayed. 
 
 
 
-### Page main image
+## Page main image
 
 
 The main image is present on the Home, About and Sessions pages. It's function is to grab the user's attention and to enhance the groups' ethos and practices. The text overlay provides information about activity and ethos and another overlay displays an inspirational quote.
 
-### Page information section
+## Page information section
 
 
 On the Home, About and Sessions pages, the information section is divided into a text and image area. The images enhance the content. Titles are displayed as headings.
 
-### Testimonials section
+## Testimonials section
 
 The testimonials on the Home page feature responses from existing users. For a more real experience, photos are displayed.
 
-### Group leaders section
+## Group leaders section
 
 This section on the About page features the group leaders with a short description and a photograph.
 For a more real experience, photos are displayed.
 
-### Video 
+## Video 
 
 The video on the Sessions page features an actual session.
 
-### Slidehow image gallery
+## Slidehow image gallery
 
 This feature is on the Gallery page. It displays one image at the time, with side buttons. The images are the size of the main images on the Home, About and Gallery pages in order to stay in keeping with the site's general layout. A slow zoomout enhances the images, and there is a friendly message to the user in the bottom right corner in a text overlay. There is also a heading on the page, which gives the main message of the page.
 
 
-### Contact details section
+## Contact details section
 
 This section on the Contact page provides email-address, phone number, web address, venue address.
 
-### Child psychologist section
+## Child psychologist section
 
 On the contact page, a child psychologist's image, profile and practice's address are displayed. Users can also get here by clicking on the Contact a child psychologist link in the footer.
 
-### Contact form
+## Contact form
 
 This section on the Contact page features a contact form where users can input their name and email address and then submit those to the site owners. 
 
-### Radio buttons
+## Radio buttons
 
 On the Contact page, the user can let the site owners know whether he/she wants to participate in the sessions soon. Radio buttons are technically part of the contact form.
 
-### Map
+## Map
 
 On the Contact page, the embedded Google map will help the user find the venue.
 
-### Confidentiality document page 
+## Confidentiality document page 
 
 This page opens from the footer Confidentiality link. It features a padlock icon to enhance the content, the actual statement and a back arrow icon and a link to get back on the Home page. It's styled the same colour as the main page background.
 
-# Wireframes
+# Structure
+## Wireframes
 
 
-#### Wireframes for mobile, tablet and desktop view are available here: 
+### Wireframes for mobile, tablet and desktop view are available here: 
 
 [Mobile View](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/wireframes/Milestone_Project_1_Wireframes%20for%20mobile%20view.pdf)
+
+
 [Tablet View](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/wireframes/Milestone_Project_1_Wireframes%20for%20tablet%20view.pdf)
+
+
 [Desktop View](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/wireframes/Milestone_Project_1_Wireframes%20for%20desktop%20view.pdf)
 
-#### Discrepancies with original ideas
+## Discrepancies with original ideas
 
 
 *  Overall 
@@ -273,9 +278,24 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
     The contact form is for newsletter subscription purposes, as opposed to the original where it was meant for contacting the site. This would have merely duplicated the contact option, without any added function.
 
 
-    The radio button question has been changed to asing the user whether they would want to join soon. The original question would have been answered by the user in the process of contacting the group anyway.
+    The radio button question has been changed to asking the user whether they would want to join soon. The original question would have been answered by the user in the process of contacting the group anyway.
 
     *  Confidentiality page - was meant to be the way it is in the final version. 
+
+    ## Colours
+
+    For the colours I partly used the [mycolor.space](https://mycolor.space/) site and the in-built colour palette in Gitpod. I aimed for low-tone, relaxing colours that harmonize with each other, as user turn to the site in distress, seeking for comfort. The header and footer are grey-blue with white logo, icon and link colours, the main image overlays displaying inspirational messages are taupe with white letters. I styled the message to the user on the Gallery page the same way. The overlays providing information are white based, with taupe letters. The body is a light green-blue. Text color is black, headings are dark-grey. For accents I used a light blue colour. The contact form on the Contact page varies the colours taupe and white, with form area as taupe and input fields/radio buttons in white. I selected the images with low tones displaying mainly the above colours.
+
+    [Example for colour implementation - About page](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/About_page_main_image.JPG)
+
+    ## Typography
+
+
+    For the main text flow I used 'Lora', serif from Google fonts as it has nicely formed letters with a nice flow effect and it has a default font-weight that didn't need extra Css styling. 
+
+    For links in the header and navbar and text-overlays displaying mottos and extra information, also image gallery overlay I used default 'Rubik', sans-serif from Google Fonts, sans-serif, as I find it matter-of fact letter-type. 
+
+    For page headings I used the default 'Open Sans', sans-serif from Google Fonts, sans-serif, as I find it matter-of fact letter-type but it also differs from Rubik.
 
 
 
