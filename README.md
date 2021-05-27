@@ -321,20 +321,55 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
 
 # Testing 
 
-* Validation 
+## Validation 
 
-  * My Home, About, Sessions, Gallery, Contact, Confidentiality html pages passed in the W3C HTML Validator with the following result: **Document checking completed. No errors or warnings to show.**
+   My Home, About, Sessions, Gallery, Contact, Confidentiality html pages passed in the W3C HTML Validator with the following result. I needed to fix minor errors on 3 pages before: **Document checking completed. No errors or warnings to show.**
 
-  * My CSS page passed in the W3C Jigsaw CSS validator with the following result: **CSS Congratulations! No Error Found.**
+   My CSS page passed in the W3C Jigsaw CSS validator with the following result: **CSS Congratulations! No Error Found.**
 
-  There were 9 warning messages displayed regarding the import rules, the following extensions and their @ rules:
+  There were 9 warning messages displayed regarding imported elements. 
 
-  -webkit-animation 
-	-moz-animation
-	-o-animation is an unknown vendor extension
-	-ms-animation 
+  [CSS Warning messages after successful validation](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/CSS%20warning%20messages%20in%20Jigsaw.JPG)
+
+  ## Testing in supported browsers
+
+  I used the following most up-to-date browsers:
+
+  * Google Chrome
+  * Mozilla Firefox
+  * Microsoft Edge
+  * Internet Explorer
+
+  Chrome, Firefox and Edge displayed the site without problems. Internet Explorer didn't display the animated features including the Javascript powered slideshow Gallery. Javascript could have been turned off for Explorer. 
+
+  ## Responsiveness
+
+  I checked the responsiveness on the following tools while creating the pages:
+
+  *  Google Developer Tools
+
+  * Am I Responsive website
+
+  The finished product was tested on the following devices:
+
+  * Samsung Galaxy A51
+  * Ipad
+  * Huawei P30 Pro
+  * Samsung Galaxy S5
+
+  The site looked the way it was intended on all devices. 
+
+
+
+
+
+
+
+
 
   
+
+
 
 
 
