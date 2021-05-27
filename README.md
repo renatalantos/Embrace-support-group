@@ -234,4 +234,6 @@ This page opens from the footer Confidentiality link. It features a padlock icon
 
 
 
+
+
 Link to wireframes: https://github.com/renatalantos/Embrace-support-group/blob/master/Milestone_Project_1_A4.pdf
