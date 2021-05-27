@@ -284,18 +284,44 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
 
     ## Colours
 
-    For the colours I partly used the [mycolor.space](https://mycolor.space/) site and the in-built colour palette in Gitpod. I aimed for low-tone, relaxing colours that harmonize with each other, as user turn to the site in distress, seeking for comfort. The header and footer are grey-blue with white logo, icon and link colours, the main image overlays displaying inspirational messages are taupe with white letters. I styled the message to the user on the Gallery page the same way. The overlays providing information are white based, with taupe letters. The body is a light green-blue. Text color is black, headings are dark-grey. For accents I used a light blue colour. The contact form on the Contact page varies the colours taupe and white, with form area as taupe and input fields/radio buttons in white. I selected the images with low tones displaying mainly the above colours.
+    For the colours I partly used the [mycolor.space](https://mycolor.space/) site and the in-built colour palette in Gitpod. I aimed for low-tone, relaxing colours that harmonize with each other, as users turn to the site in distress, seeking for comfort. Dominant colours are shades of blue, shades  taupe, white, light blue-green and grey and black for text. Main images were selected accordingly.
 
     [Example for colour implementation - About page](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/About_page_main_image.JPG)
 
     ## Typography
 
 
-    For the main text flow I used 'Lora', serif from Google fonts as it has nicely formed letters with a nice flow effect and it has a default font-weight that didn't need extra Css styling. 
+    For the main text flow I used 'Lora', serif from Google fonts as it has nicely formed letters with a flow effect and it has a default font-weight that didn't need extra Css styling. 
 
     For links in the header and navbar and text-overlays displaying mottos and extra information, also image gallery overlay I used default 'Rubik', sans-serif from Google Fonts, sans-serif, as I find it matter-of fact letter-type. 
 
     For page headings I used the default 'Open Sans', sans-serif from Google Fonts, sans-serif, as I find it matter-of fact letter-type but it also differs from Rubik.
+
+
+# Technologies
+
+### The following technologies and platforms were used to create the site:
+
+*  **HTML** for structure and text
+
+*  **CSS** for styling
+
+* **Javascript** for the Gallery page slideshow gallery
+
+* **Google Fonts** for text
+
+* **Font Awesome for icons** for icons
+
+* **Responsivity mockup sites** to test responsivity
+
+* **Gitpod** to create pages and assets
+
+* **Github** to store created pages and assets
+
+
+# Testing 
+
+
 
 
 
