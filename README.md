@@ -231,7 +231,11 @@ This page opens from the footer Confidentiality link. It features a padlock icon
 # Wireframes
 
 
+Wireframes for mobile, tablet and desktop view are available here: 
 
+[Mobile View]()
+[Tablet View]()
+[Desktop View]()
 
 
 
