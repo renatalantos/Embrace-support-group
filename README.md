@@ -231,13 +231,60 @@ This page opens from the footer Confidentiality link. It features a padlock icon
 # Wireframes
 
 
-Wireframes for mobile, tablet and desktop view are available here: 
+#### Wireframes for mobile, tablet and desktop view are available here: 
 
-[Mobile View]()
-[Tablet View]()
-[Desktop View]()
+[Mobile View](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/wireframes/Milestone_Project_1_Wireframes%20for%20mobile%20view.pdf)
+[Tablet View](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/wireframes/Milestone_Project_1_Wireframes%20for%20tablet%20view.pdf)
+[Desktop View](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/wireframes/Milestone_Project_1_Wireframes%20for%20desktop%20view.pdf)
+
+#### Discrepancies with original ideas
+#### In destop view
+
+*  Overall 
+
+Overall I kept to the basic layout described in the wireframes. 
+
+* On individual pages
+  * Home page
+
+  I added more text start with, as I felt the user would look for information on the group. I added smaller images to enhance the content and make the site visually more appealing. I divided the text area into a left and right section. The testimonials are displayed in a 2-by-2 view, instead of a 4-by-1 and used images, too to introduce the reviewers. I used Welcome instead of Intro.
+
+    *  About page
+
+
+    I added smaller images to enhance the content and make the site visually more appealing. I divided the text area into a left and right section. I used Our Group Leaders instead of History and used images, too to introduce them. I also planned to put the child psychologist contact details and image here, which are on the Contact page right now. I felt this was more logical and coherent.
+
+    *  Sessions page 
+
+    I added smaller images to enhance the content and make the site visually more appealing. I divided the text area into a left and right section. Also, a video is featured here, that I wanted to display in the Gallery page, as one of the images.
+
+    *  Gallery page
+
+
+    Instead of a mosaic image layout I displayed a whole page slideshow gallery. I felt this is more consistent with the layout of the previous pages that display a large size main image on top.
+
+    *  Contact page 
+
+
+    I changed the arrangements of the 3 sections on the page. The two 50% size sections are displayed in reverse order as the user will look for the contact details first according to the page title and on smaller screens the contact details might not show without scrolling down first. Also I inserted the child psychologist's details here. 
+
+
+    The contact form is for newsletter subscription purposes, as opposed to the original where it was meant for contacting the site. This would have merely duplicated the contact option, without any added function.
+
+
+    The radio button question has been changed to asing the user whether they would want to join soon. The original question would have been answered by the user in the process of contacting the group anyway.
+
+    *  Confidentiality page - was meant to be the way it is. 
 
 
 
 
-Link to wireframes: https://github.com/renatalantos/Embrace-support-group/blob/master/Milestone_Project_1_A4.pdf
+    
+  
+
+
+
+The main discrepancy  is that I didn't implement a hamburger menu in mobile
+view as planned. See Issues for explanation. 
+
+
