@@ -321,6 +321,23 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
 
 # Testing 
 
+* Validation 
+
+  * My Home, About, Sessions, Gallery, Contact, Confidentiality html pages passed in the W3C HTML Validator with the following result: **Document checking completed. No errors or warnings to show.**
+
+  * My CSS page passed in the W3C Jigsaw CSS validator with the following result: **CSS Congratulations! No Error Found.**
+
+  There were 9 warning messages displayed regarding the import rules, the following extensions and their @ rules:
+
+  -webkit-animation 
+	-moz-animation
+	-o-animation is an unknown vendor extension
+	-ms-animation 
+
+  
+
+
+
 
 
 
