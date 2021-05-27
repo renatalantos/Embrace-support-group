@@ -18,9 +18,6 @@
   * Confidentiality 
   
  * Features
-  * Features used
-  * Features to implement
-
 
 * Structure
   * Wireframes
@@ -169,9 +166,7 @@ This page opens from the Confidentiality link in the footer. It is a mere confid
 
 ### Header
 
-
 The header contains a logo of the Support group, links to the Home, About, Sessions, Gallery and Contact pages.
-
 The header will allow the user to see all available pages at a glance and navigate between pages without having to go back to the previous pages. The header is present on all pages linked in it, except for the Confidentiality page, which is a document, not an actual webpage.
 
 
@@ -228,6 +223,12 @@ On the Contact page, the user can let the site owners know whether he/she wants 
 ### Map
 
 On the Contact page, the embedded Google map will help the user find the venue.
+
+### Confidentiality document page 
+
+This page opens from the footer Confidentiality link. It features a padlock icon to enhance the content, the actual statement and a back arrow icon and a link to get back on the Home page. It's styled the same colour as the main page background.
+
+# Wireframes
 
 
 
