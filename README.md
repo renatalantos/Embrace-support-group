@@ -29,7 +29,7 @@
 
 * Testing
 
-* Issues
+* Bugs, Issues
 
 * Deployment
 
@@ -372,9 +372,13 @@ I tried to insert a hamburger menu for mobile view using Javascript following th
 
 * Extra space between elements Contact child psychologist link and copyright statement on About and Sessions pages due to probably extra padding on Follow us on social media link. Even if this link was surrounded by <a> tags, the problem persisted. Adding classes to this element didn't resolve the issue.
 
-[]()
+[Gap as intended](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/gap%20between%20contact%20child%20psychologist%20link%20and%20copyright%20as%20intended.JPG)
+[Gap appears larger than intended](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/gap%20appear%20larger%20on%20Sessions%20and%20Gallery%20pages.JPG)
 
-* Radio buttons allow to use two options at the same time. 
+* Radio buttons allow user to use two options at the same time. 
+[Radio button allows to selections at the same time]()
+
+
 
 
 
