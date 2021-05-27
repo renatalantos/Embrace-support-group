@@ -65,7 +65,7 @@ footer a,
     text-decoration: none;
     color: white;
     font-family: 'Rubik', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 100;
 }
 
@@ -79,10 +79,12 @@ footer h3 {
     margin: 0;
     padding: 0;
     border: none;
+    font-size: 20px;
 }
 
-#hello {
+#extra-h6-style {
     margin: 0;
+    padding: 10px 0;
 }
 
 footer h6 {
@@ -93,6 +95,15 @@ footer h6 {
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 100;
+}
+
+#copyright {
+    width: 33%;
+    margin: 0 auto;
+    display: inline;
+    float: none;
+    text-align: center;
+
 }
 
 #menu a:hover,
@@ -603,10 +614,17 @@ footer i {
 }
 
 
+#fname,
+#lname,
+#email {
+    padding: 10px 60px;
+}
+
 .text-label,
 .email-label {
     padding-bottom: 10px;
 }
+
 
 .to-left-small h3 {
     padding: 20px 10px;
@@ -734,7 +752,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     }
 
 
-    #hero-outer,
+    footer #hero-outer,
     #hero-text-area {
         margin-top: 0;
 
@@ -868,9 +886,12 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     #menu li a,
     footer a,
     .social-icon {
-        font-size: 20px;
+        font-size: 18px;
     }
 
+    footer h6 {
+        font-size: 14px;
+    }
 
 
 
