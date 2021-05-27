@@ -42,7 +42,6 @@ header {
     height: 60px;
     width: 60px;
     float: left;
-    border-radius: 5px;
     margin: 20px;
     z-index: 5;
 
@@ -723,7 +722,10 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 /*For landscape view on large desktops*/
 @media screen and (min-width: 1500px) {
 
-    header {position: fixed;}
+    header {
+        position: fixed;
+    }
+
     #cover-text {
         right: 120px;
     }
@@ -744,7 +746,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
     header {
         position: relative;
-        margin-bottom:0;
+        margin-bottom: 0;
     }
 
     #hero-image-home {
@@ -757,7 +759,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         margin-left: 20px;
     }
 
-/*#hero-summary h1 {
+    /*#hero-summary h1 {
     font-size: 25px;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
@@ -780,7 +782,9 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     border-radius: 5px;
     background-color: rgb(255, 255, 255, .7);
 }*/
-    .push-up-hero-outer {margin-top:0;}
+    .push-up-hero-outer {
+        margin-top: 0;
+    }
 
     #menu li a,
     footer a,
@@ -917,9 +921,11 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         line-height: 60px;
     }
 
+    
+
     #menu {
-        float: none;
-        width: 100%;
+        float: right;
+        width: 90%;
         margin: 0 auto;
 
     }
@@ -936,10 +942,11 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         background-image: url('../images/embrace_logo_30px.png');
         background-repeat: no-repeat;
         height: 30px;
-        width: 30px;
+        width: 10%;
         float: left;
-        border-radius: 5px;
-        margin: 5px 10px 0 5px;
+        margin: 0;
+        margin: 5px 0 0 5px;
+
 
 
     }
@@ -1081,7 +1088,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
 /*For both portrait and landscape view on mobile phones with max-width of 320px*/
 
-@media screen and (max-width:320px)  {
+@media screen and (max-width:320px) {
 
     header {
         position: relative;
@@ -1111,16 +1118,16 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
         float: left;
         border-radius: 5px;
         margin: 3px 0px 0 3px;
-      
-
 
     }
+
+    
 
 
     #menu li a,
     footer a,
     .social-icon {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     footer h6 {
@@ -1137,12 +1144,14 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
     #hero-summary {
         width: 100%;
         margin-left: 0;
-        text-align:center;
-        
-        
+        text-align: center;
+
+
     }
 
-
+  #hero-summary h1{
+      font-size: 25px;
+  }
 
     #cover-text {
         visibility: hidden;
