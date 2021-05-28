@@ -720,11 +720,6 @@ footer i {
 /* Add media queries for responsiveness. Media queries for large desktops, tablet devices and mobile phones*/
 
 
-/*For Mobile Phones @media (max-width:480px){}
-For Tablets @media (max-width:960px){}
-For Laptops/Desktop @media (min-width:1025px){}
-For Hi-Res Laptops @media (max-width:1280px){}*/
-
 /*For landscape view on large desktops*/
 @media screen and (min-width: 1500px) {
 
@@ -748,6 +743,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 }
 
 /*For both portrait and landscape view on tablet devices*/
+
 @media screen and (min-width: 768px) and (max-width:1024px) {
 
     header {
@@ -875,7 +871,7 @@ For Hi-Res Laptops @media (max-width:1280px){}*/
 
 
 
-/*For both portrait and landscape view on mobile phones with min-width of 321px and max-width  of  767px*/
+/*For both portrait and landscape view on mobile phones with min-width of 321px and max-width of 767px*/
 
 @media screen and (min-width:321px) and (max-width:767px) {
 
