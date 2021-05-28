@@ -1223,6 +1223,26 @@ footer i {
         height: auto;
     }
 
+    .to-left-small p {
+        padding: 0 20px;
+        text-align: left;
+        line-height: 20px;
+
+    }
+
+    .text-input,
+    .email-input {
+        padding: 0;
+
+    }
+
+    #fname,
+    #lname,
+    #email {
+        padding: 10px 40px;
+    }
+
+
     .to-right-large {
         margin: auto;
         float: none;
