@@ -984,7 +984,13 @@ footer i {
         text-align: center;
     }
 
-   
+    #team-founders p {
+        page-break-inside: auto;
+        padding: 20px 70px 20px 70px;
+        text-align: justify;
+
+    }
+
 
 
     .to-left iframe {

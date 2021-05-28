@@ -451,11 +451,11 @@ Completely mine. However, I was glad to discover that there are web pages, image
 ## Text 
 Text is a mix from the following websites:
 
-* [General1](up. https://www.relate.org.uk/)
+* [General1](https://www.relate.org.uk/)
 * [General2](https://turn2me.ie/)
 * [General3](http://www.familymatters.ie/testimonials.html)
-* [Gneral4](https://www.goodtherapy.org/learn-about-therapy/modes/group-therapy)
-*[Confidentiality page](https://students.tufts.edu/sites/default/files/HWClientConsentConfidentialityPolicy.pdf)
+* [General4](https://www.goodtherapy.org/learn-about-therapy/modes/group-therapy)
+* [Confidentiality page](https://students.tufts.edu/sites/default/files/HWClientConsentConfidentialityPolicy.pdf)
 
 ## Images 
 
