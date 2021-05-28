@@ -1,5 +1,5 @@
 # Milestone Project 1 - Embrace Support Group
-![image]()
+![image](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Am_I_responsive_screenshot.JPG)
 
 ## Table of Contents
 
@@ -319,7 +319,7 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
 
 # Testing 
 
- ##Validation 
+ ## Validation 
 
    My Home, About, Sessions, Gallery, Contact, Confidentiality html pages passed in the W3C HTML Validator with the following result. I needed to fix minor errors on 3 pages before: **Document checking completed. No errors or warnings to show.**
 
@@ -364,7 +364,7 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
    Apparently that could do with the IOS system or Safari, I couldn't resolve this issue, however, in Google Developer 
    tools everything looks as meant.
 
-  I also found while testing the responsive layoutin Google Developer tools, that the smaller the device screen size, the better the header looks.
+  I also found while testing the responsive layout in Google Developer tools, that the smaller the device screen size, the better the header looks.
 
   ## Features 
 
@@ -417,7 +417,30 @@ A gap appeared between the main image and the text area in tablet and large desk
 
 [Gap between main image and text area](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Gap_between_image_and_text_area.jpg)
 
+# Deployment
 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. In the GitPod Workspace I made sure that everything is saved.
+2. In the Terminal window I added all my files by using git add . .
+2. In the Terminal window I queued my files using git commit -m "Meaningful, descriptive note"
+3. In the Terminal window I typed git push to push my updated files into GitHub.
+4. In GitHub I selected my repository name from the dropdown window.
+5. I navigated to the Settings tab on the right hand side (above Green Gipod button).
+6. On the Settings page I navigated to GitHub Pages.
+7. I clicked on the Check out here! link after the message: Pages settings now has its own dedicated tab!
+8. This took me to the next page GitHub Pages. 
+9. Under Source I selected branch **Master** from the **None**, **extensions** and **Master** options.
+10. From the folders beside branch I selected /(root) from /(root) and /docs.
+11. Next I clicked save.
+12. My live site was deployed a few minutes later under [the following link:](https://renatalantos.github.io/Embrace-support-group/)
+
+
+
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here 
 
 
 
