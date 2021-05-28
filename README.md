@@ -226,6 +226,10 @@ On the Contact page, the embedded Google map will help the user find the venue.
 
 This page opens from the footer Confidentiality link. It features a padlock icon to enhance the content, the actual statement and a back arrow icon and a link to get back on the Home page. It's styled the same colour as the main page background.
 
+## Future features
+
+A hamburger menu for mobile view.
+
 # Structure
 ## Wireframes
 
@@ -436,11 +440,69 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 12. My live site was deployed a few minutes later under [the following link:](https://renatalantos.github.io/Embrace-support-group/)
 
 
+# Acknowledgements 
 
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here 
+The below website is a collage for all over the web.
+
+## Idea
+
+Completely mine. However, I was glad to discover that there are web pages, images, videos featuring parent support groups and therapy groups in general. 
+
+## Text 
+Text is a mix from the following websites:
+
+* [General1](up. https://www.relate.org.uk/)
+* [General2](https://turn2me.ie/)
+* [General3](http://www.familymatters.ie/testimonials.html)
+* [Gneral4](https://www.goodtherapy.org/learn-about-therapy/modes/group-therapy)
+*[Confidentiality page](https://students.tufts.edu/sites/default/files/HWClientConsentConfidentialityPolicy.pdf)
+
+## Images 
+
+Images are  courtesy of the [pexels.com](https://www.pexels.com/).  Thanks Tima!
+The main Home page image is featured on the [www.newportacademy.com](https://www.newportacademy.com/resources/restoring-families/parenting-support-groups/) webiste.
+
+## Video 
+
+Video is courtesy of a lovely parent support group and YouTube
+[YouTube video link](https://www.youtube.com/watch?v=jAIRxEWfl7Y)
+
+## Text styling
+I used the GoogleFonts website to choose my letter styles.
+
+## Icons
+
+Icons are from the FontAwesome website.
+
+## Colours
+Colours were partly chosen from the mycolor.space website and the default palette in GitPod. 
+
+## Technologies
+My beloved cheetsheet, the www.w3schools website for Javascript. Kits to power image transformations, the gallery slideshow and buttons for the slideshow are from there. 
+
+# Special Acknowledgements
+
+* To Roman for staring us off on this journey.
+* To Kasia for all her help and hard work.
+* To my classmates who helped and advised.
+* To my mentor Seun for her guidance.
+
+And last but not least my family for testing my pages while I was testing their patience.
+Sorry about the late dinners and horrible meals!!! And Thanks!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
