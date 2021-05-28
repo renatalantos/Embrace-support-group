@@ -1,5 +1,5 @@
 # Milestone Project 1 - Embrace Support Group
-![image](https://user-images.githubusercontent.com/82510814/119694410-1a685c80-be45-11eb-9f54-7d8e9e37d6df.png)
+![image]()
 
 ## Table of Contents
 
@@ -326,6 +326,7 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
    My CSS page passed in the W3C Jigsaw CSS validator with the following result: **CSS Congratulations! No Error Found.**
 
   There were 9 warning messages displayed regarding imported elements. 
+  These relate to the imported stylesheet on top of the page and the elements are imported to power the text overlay transform features.
 
   [CSS Warning messages after successful validation](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/CSS%20warning%20messages%20in%20Jigsaw.JPG)
 
@@ -338,7 +339,7 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
   * Microsoft Edge
   * Internet Explorer
 
-  Chrome, Firefox and Edge displayed the site without problems. Internet Explorer didn't display the animated features including the Javascript powered slideshow Gallery. Javascript could have been turned off for Explorer. 
+  Chrome, Firefox and Edge displayed the site without problems. Internet Explorer didn't display the animated features including the Javascript powered slideshow Gallery  first. After I moved the javascript source links form the head into the end of the body page, these features worked as well.
 
   ## Responsiveness
 
@@ -355,17 +356,31 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
   * Huawei P30 Pro
   * Samsung Galaxy S5
 
-  The site looked the way it was intended on all devices. 
+  The site looked the way it was intended on almost all devices. However, the Ipad does not display the main images. Apparently that could do with the IOS system or Safari, I couldn't resolve this issue, however, in Google Developer tools everything looks as meant.
 
   ## Features 
 
-  All features are working as intended. Contact form asks for relevant information if not given. 
+  All features are working as intended. Contact form asks for relevant information if not given. Radio buttons allow user to select one option at the time.
 
-# Issues 
+# Bugs, issues
+
 
 * Hamburger menu
 
-I tried to insert a hamburger menu for mobile view using Javascript following the [https://www.w3schools.com/howto/howto_js_mobile_navbar.asp](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) link, however, the opened link tabs stayed open after being clicked on, and occupied too much space on the screen, so I reverted to using the header links. However, in mobile view the header took up too much space and nav elements appeared partly under each other. I resized the header in all views. In mobile views I reduced the line height, font size, the logo and all paddings and margins that could be done without. I gave the navbar a width of 90% and the logo 10%. This doesn't apply to devices under the screen width of under 321 px. Here I simply floated the logo to the left and reduced the navbar elements. On larger mobile devices the logo and the nav elements appear on 2 different lines, however the nav items are pretty much centered and the layout has improved a lot. 
+I tried to insert a hamburger menu for mobile view using Javascript following the [https://www.w3schools.com/howto/howto_js_mobile_navbar.asp](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) link, however, the opened link tabs stayed open after being clicked on, and occupied too much space on the screen, so I reverted to using the header links.  
+
+* Gap on the side of main images in large desktop view
+
+This is due to the actual width of the images, which is 1500px and the screen width is wider than that. 
+I considered resizing the images to a larger resolution but I foun
+
+
+
+
+
+* Header occupied a large portion of the screen in mobile view
+
+ In mobile view the header took up too much space and nav elements appeared partly under each other. I resized the header in all views. In mobile views I reduced the line height, font size, the logo and all paddings and margins that could be done without. I gave the navbar a width of 90% and the logo 10%. This doesn't apply to devices under the screen width of under 321 px. Here I simply floated the logo to the left and reduced the navbar elements. On larger mobile devices the logo and the nav elements appear on 2 different lines, however the nav items are pretty much centered and the layout has improved a lot. 
 
 
 * Extra space between elements Contact child psychologist link and copyright statement on About and Sessions pages. On the About page the footer was inside the #hero-text-area section, taking it out fixed the issue. 
@@ -392,8 +407,9 @@ This was solved by adding a name to the radio input tags.
 
 A gap appeared between the main image and the text area in tablet and large desktop view. This was due to the narrower height and width of the image from the rest. I fixed this issue resizing the image for the 2 extra views. However, when tested on my Android Galaxy A51, the gap appeared there (not before). I fixed this by adding an extra 20px of height and line height in mobile view. This fixed the issue.
 
-[Gap between main image and text area]()
+[Gap between main image and text area](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Gap_between_image_and_text_area.jpg)
 
+*
 
 
 
