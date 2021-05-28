@@ -319,7 +319,7 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
 
 # Testing 
 
-## Validation 
+ ##Validation 
 
    My Home, About, Sessions, Gallery, Contact, Confidentiality html pages passed in the W3C HTML Validator with the following result. I needed to fix minor errors on 3 pages before: **Document checking completed. No errors or warnings to show.**
 
@@ -339,13 +339,17 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
   * Microsoft Edge
   * Internet Explorer
 
-  Chrome, Firefox and Edge displayed the site without problems. Internet Explorer didn't display the animated features including the Javascript powered slideshow Gallery  first. After I moved the javascript source links form the head into the end of the body page, these features worked as well.
+  Chrome, Firefox and Edge displayed the site without problems. Firefox and Edge display a sligthly different background color. 
+  My guess is, they don't feature the colours I imported from the ColorSpace website and they substitute it with the closest match.
+
+  Internet Explorer didn't display the animated features including the Javascript powered slideshow Gallery  first. 
+  After I moved the javascript source links form the head into the end of the body page, these features worked as well.
 
   ## Responsiveness
 
   I checked the responsiveness on the following tools while creating the pages:
 
-  *  Google Developer Tools
+  * Google Developer Tools
 
   * Am I Responsive website
 
@@ -356,27 +360,30 @@ view as planned. Also, in tablet and mobile view, the copyright message is not d
   * Huawei P30 Pro
   * Samsung Galaxy S5
 
-  The site looked the way it was intended on almost all devices. However, the Ipad does not display the main images. Apparently that could do with the IOS system or Safari, I couldn't resolve this issue, however, in Google Developer tools everything looks as meant.
+  The site looked the way it was intended on almost all devices. However, the Ipad does not display the main images.
+   Apparently that could do with the IOS system or Safari, I couldn't resolve this issue, however, in Google Developer 
+   tools everything looks as meant.
+
+  I also found while testing the responsive layoutin Google Developer tools, that the smaller the device screen size, the better the header looks.
 
   ## Features 
 
-  All features are working as intended. Contact form asks for relevant information if not given. Radio buttons allow user to select one option at the time.
+  All features are working as intended. Contact form asks for relevant information if not given. 
+  Radio buttons allow user to select one option at the time.
 
-# Bugs, issues
+## Bugs, Issues
 
 
 * Hamburger menu
 
-I tried to insert a hamburger menu for mobile view using Javascript following the [https://www.w3schools.com/howto/howto_js_mobile_navbar.asp](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) link, however, the opened link tabs stayed open after being clicked on, and occupied too much space on the screen, so I reverted to using the header links.  
+I tried to insert a hamburger menu for mobile view using Javascript following the [https://www.w3schools.com/howto/howto_js_mobile_navbar.asp](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) link,
+ however, the opened link tabs stayed open after being clicked on, and occupied too much space on the screen, so I reverted to using the header links. 
 
 * Gap on the side of main images in large desktop view
 
 This is due to the actual width of the images, which is 1500px and the screen width is wider than that. 
-I considered resizing the images to a larger resolution but I foun
-
-
-
-
+I considered resizing the images but I found that it affects the image quality, 
+so I left it the way it is.  
 
 * Header occupied a large portion of the screen in mobile view
 
@@ -405,11 +412,13 @@ This was solved by adding a name to the radio input tags.
 
 * Gap between main Home image and text area
 
-A gap appeared between the main image and the text area in tablet and large desktop view. This was due to the narrower height and width of the image from the rest. I fixed this issue resizing the image for the 2 extra views. However, when tested on my Android Galaxy A51, the gap appeared there (not before). I fixed this by adding an extra 20px of height and line height in mobile view. This fixed the issue.
+A gap appeared between the main image and the text area in tablet and large desktop view. This was due to the narrower height and width of the image from the rest.
+ I fixed this issue resizing the image for the 2 extra views. However, when tested on my Android Galaxy A51, the gap appeared there (not before). I fixed this by adding an extra 20px of height and line height in mobile view. This fixed the issue.
 
 [Gap between main image and text area](https://github.com/renatalantos/Embrace-support-group/blob/master/documents/screenshots/Gap_between_image_and_text_area.jpg)
 
-*
+
+
 
 
 
